@@ -326,12 +326,12 @@ print PHP_EOL . '<!-- SECTION 3 Display Form -->' . PHP_EOL;
         <article class="connect col-sm-4">
             <h4>Connect With Us:</h4>
             <ul class="row">
-                <li class="col-sm-6"><a href="https://fb.com" class="fa fa-facebook"></a>facebook</li>
-                <li class="col-sm-6"><a href="https://instagram.com" class="fa fa-instagram"></a>instagram</li>
+                <li class="col-sm-6"><a href="https://www.facebook.com/profile.php?id=100004473738754" class="fa fa-facebook"></a>Facebook</li>
+                <li class="col-sm-6"><a href="https://instagram.com/halliganwebdev" class="fa fa-instagram"></a>Instagram</li>
             </ul>
             <ul class="row">
-                <li class="col-sm-6"><a href="https://linkedin.com" class="fa fa-linkedin"></a>linkedin</li>
-                <li class="col-sm-6"><a href="https://google.com" class="fa fa-google"></a>google</li>
+                <li class="col-sm-6"><a href="https://www.linkedin.com/in/matthew-halligan-a56002187/" class="fa fa-linkedin"></a>LinkedIn</li>
+                <li class="col-sm-6"><a href="https://www.youtube.com/channel/UCZ8pkwlGqt-19A5z86P98tQ?view_as=subscriber" class="fa fa-youtube"></a>Youtube</li>
             </ul>
         </article> 
     </section>
