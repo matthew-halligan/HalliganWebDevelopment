@@ -1,14 +1,15 @@
+footer{
+    height: 100%;
+}
 footer li{
     list-style-type: none;
 }
 
 .connect .fa {
-    padding: 7%;
+    padding: 20px;
     font-size: 1.5em;
-    width: 35%;
     text-align: center;
     text-decoration: none;
-    border:3px double blanchedalmond;
     border-radius: 100%;
     margin: 1%;
 }

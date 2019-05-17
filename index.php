@@ -125,7 +125,7 @@ include "top.php";
 
 <section class="row">
 <h6 class="hide" >Hello</h6>
-  <article class="card col-sm-3 view overlay c1" >
+  <article class="card col-sm-12 col-md-9 col-lg-3 view overlay c1" >
     <h6 class="hide" >Hello</h6>
     <article class="card-body">
       <img class="about-us-card-image-portfolio" src="https://media.licdn" alt="">
@@ -144,7 +144,7 @@ include "top.php";
     </article>
   </article>
   
-  <article class="card col-sm-3 view overlay c2">
+  <article class="card col-sm-12 col-md-9 col-lg-3 view overlay c2">
     <h6 class="hide" >Hello</h6>
     <article class="card-body">
     <img class="about-us-card-image-portfolio" src="https://media.licdn" alt="">
@@ -161,7 +161,7 @@ include "top.php";
     </article>
   </article>
 
-  <article class="card col-sm-3 view overlay c3" >
+  <article class="card col-sm-12 col-md-9 col-lg-3 view overlay c3" >
     <h6 class="hide" >Hello</h6>
     <article class="card-body">
     <img class="about-us-card-image-portfolio" src="https://media.licdn" alt="">
