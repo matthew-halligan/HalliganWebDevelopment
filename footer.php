@@ -279,14 +279,14 @@ print PHP_EOL . '<!-- SECTION 3 Display Form -->' . PHP_EOL;
         <h6 class="hide" >Hello</h6>
         <article class="col-sm-4 ">
             <h4 class="">Contact Us</h4>
-            <address>250 Colchester Ave, <br>
-                Burlignton, VT,05405.
+            <address>10 Shelby Drive <br>
+                Wallingford, CT,06492.
             </address>
 
             <ul>
-                <li><a href="mailto:nana.nimako@uvm.edu" class="fa fa-envelope">help@tsnindustries.tech</a></li>
+                <li><a href="mailto:matt@halliganwebdevelopment.com" class="fa fa-envelope">matt@halliganwebdevelopment.com</a></li>
 
-                <li><a href="#" class="fa fa-phone">(347) 430 - 2193</a></li>
+                <li><a href="tel:2036261748" class="fa fa-phone">(203) 626 - 1748</a></li>
             </ul>
             
         </article>
@@ -335,6 +335,6 @@ print PHP_EOL . '<!-- SECTION 3 Display Form -->' . PHP_EOL;
             </ul>
         </article> 
     </section>
-    <span>&COPY; Copyrights. All Rights Reserved</span> <br>
+    <span>&COPY; Copyright Halligan Web Development. All Rights Reserved</span> <br>
     <span><a href="require_login/admin.php" style="font-size:0.6em">Admin</a></span>  
 </footer>
