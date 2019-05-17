@@ -129,14 +129,17 @@ include "top.php";
     <h6 class="hide" >Hello</h6>
     <article class="card-body">
       <img class="about-us-card-image-portfolio" src="https://media.licdn" alt="">
-      <h5 class="card-title">The CNB Swapper</h5>
+      <h5 class="card-title">The Superior Barbershop</h5>
     </article>
     <article class="mask  rgba-white-strong">
       <h6 class="text-center">Project Description</h6>
-      <p class="black-text">The CNB Swapper is web application designed for UVM student to swap dorms with another student on campus. A student submits an application to the market page. From here, users can view all swap postings. If they see a dorm they would be interested in swapping into, they can select that dorm and request a swap. For a match to be made, the two users have to request each other's posting. When that occurs, an email message is sent to both users notifying them that a match has been made.</p>
+      <p class="black-text">
+          The Superior Barbershop was in need of a website to improve their online presence outside of Facebook and Instagram.
+          To achieve the goal of a professional online presence I created a site that brings all of the info to the forefront for anyone to find with ease.
+
+      </p>
       <span>
-        <a href="#" class="fa fa-github"></a>
-        <a href="https://nnimako.w3.uvm.edu/cs148/thecnbswapper/" target="_blank" class="fa fa-link"></a>
+        <a href="https://thesuperiorbarbershop.com" target="_blank" class="fa fa-link"></a>
       </span>
     </article>
   </article>
@@ -145,13 +148,14 @@ include "top.php";
     <h6 class="hide" >Hello</h6>
     <article class="card-body">
     <img class="about-us-card-image-portfolio" src="https://media.licdn" alt="">
-      <h5 class="card-title">N.P. Movie Reviews</h5>
+      <h5 class="card-title">MTFU Longevity</h5>
     </article>
     <article class="mask  rgba-white-strong">
       <h6 class="text-center">Project Description</h6>
-      <p class="black-text">A site to review and read reviews of all your favorite movies!</p>
+      <p class="black-text">Mike Dusa of the MTFU Society came to me with a website in need of a store in order to sell his
+          newly written book.  After determining goals and needs, we delivered a fully functioning store
+          with the ability to add and remove products with ease as well as integrated PayPal checkout for easy sales.</p>
       <span>
-        <a href="https://ptimsin2.w3.uvm.edu/CS148Final/Dev/index.php" class="fa fa-github"></a>
         <a href="https://ptimsin2.w3.uvm.edu/CS148Final/Dev/index.php" class="fa fa-link"></a>
       </span>
     </article>
@@ -161,11 +165,13 @@ include "top.php";
     <h6 class="hide" >Hello</h6>
     <article class="card-body">
     <img class="about-us-card-image-portfolio" src="https://media.licdn" alt="">
-      <h5 class="card-title">LANK Photography</h5>
+      <h5 class="card-title">Sunset Shopping Mall</h5>
     </article>
     <article class="mask  rgba-white-strong">
       <h6 class="text-center">Project Description</h6>
-      <p class="black-text">LANK Photography is a website designed to illustrate the photography work done by the company. A user can submit a request to hire a specific photographer from the company to be their personal phographer for a specific time and event.</p>
+      <p class="black-text">
+          A website designed to display amenities offered by this fictional mall.
+      </p>
       <span>
         <a href="#" class="fa fa-github"></a>
         <a href="#" class="fa fa-link"></a>
