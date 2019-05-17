@@ -156,7 +156,7 @@ include "top.php";
           newly written book.  After determining goals and needs, we delivered a fully functioning store
           with the ability to add and remove products with ease as well as integrated PayPal checkout for easy sales.</p>
       <span>
-        <a href="https://ptimsin2.w3.uvm.edu/CS148Final/Dev/index.php" class="fa fa-link"></a>
+        <a href="https://mtfucoach.com" class="fa fa-link"></a>
       </span>
     </article>
   </article>
@@ -173,8 +173,7 @@ include "top.php";
           A website designed to display amenities offered by this fictional mall.
       </p>
       <span>
-        <a href="#" class="fa fa-github"></a>
-        <a href="#" class="fa fa-link"></a>
+        <a href="https://www.sunsetshoppingmall.com" class="fa fa-link"></a>
       </span>
     </article>
   </article>
