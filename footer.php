@@ -1,5 +1,6 @@
+
 <?php
-//%^%^%^%^%^%^%^%^%^%^%//       
+//%^%^%^%^%^%^%^%^%^%^%//
 print  PHP_EOL . '<!-- SECTION: 1 Initialize variables -->' . PHP_EOL; // These variables are used in both sections 2 and 3, otherwise we would
 // declare them in the section we needed them
 
@@ -184,11 +185,11 @@ if ($conn->query($sql) === TRUE) {
 //
 print PHP_EOL . '<!-- SECTION 3 Display Form -->' . PHP_EOL;
 //
-?>       
+?>
 <footer class="footer navbar-fixed-bottom">
         <article class="sign-up">
             <h6 class="hide" >Hello</h6>
-            <p>Stay connected; join our newsletter</p>
+    <!--    <p>Stay connected; join our newsletter</p>  -->
     <?php
     //####################################
     //
@@ -244,17 +245,17 @@ print PHP_EOL . '<!-- SECTION 3 Display Form -->' . PHP_EOL;
             this prints out a css class so that we can highlight the background etc. to
             make it stand out that a mistake happened here.
        */
-?>    
+?>
 
 
-
-<form action = "<?php print $phpSelf; ?>"
+<!--
+<form action = "<?php /*print $phpSelf; */?>"
           id = "frmSignUp"
           method = "post"
           class = "sign-upForm">
           <p class="row">
             <input 
-               <?php if ($emailERROR) print 'class="mistake"'; ?>
+               <?php /*if ($emailERROR) print 'class="mistake"'; */?>
                                    id = "txtEmailSignUp"     
                                    maxlength = "45"
                                    name = "txtEmailSignUp"
@@ -262,11 +263,11 @@ print PHP_EOL . '<!-- SECTION 3 Display Form -->' . PHP_EOL;
                                    placeholder = "Enter your email address"
                                    tabindex = "120"
                                    type = "text"
-                                   value = "<?php print $email; ?>"
+                                   value = "<?php /*print $email; */?>"
                             >
                             <input class = "button" id = "btnSubmitSignUp" name = "btnSubmitSignUp" tabindex = "900" type = "submit" value = "Sign Up" >
                     </p>
-</form>     
+</form>     -->
 <?php
     } // ends body submit
 ?>
@@ -278,14 +279,14 @@ print PHP_EOL . '<!-- SECTION 3 Display Form -->' . PHP_EOL;
         <h6 class="hide" >Hello</h6>
         <article class="col-sm-4 ">
             <h4 class="">Contact Us</h4>
-            <address>250 Colchester Ave, <br>
-                Burlignton, VT,05405.
+            <address>10 Shelby Drive <br>
+                Wallingford, CT,06492.
             </address>
 
             <ul>
-                <li><a href="mailto:nana.nimako@uvm.edu" class="fa fa-envelope">help@tsnindustries.tech</a></li>
+                <li><a href="mailto:matt@halliganwebdevelopment.com" class="fa fa-envelope">matt@halliganwebdevelopment.com</a></li>
 
-                <li><a href="#" class="fa fa-phone">(347) 430 - 2193</a></li>
+                <li><a href="tel:2036261748" class="fa fa-phone">(203) 626 - 1748</a></li>
             </ul>
             
         </article>
@@ -325,15 +326,15 @@ print PHP_EOL . '<!-- SECTION 3 Display Form -->' . PHP_EOL;
         <article class="connect col-sm-4">
             <h4>Connect With Us:</h4>
             <ul class="row">
-                <li class="col-sm-6"><a href="https://fb.com" class="fa fa-facebook"></a>facebook</li>
-                <li class="col-sm-6"><a href="https://instagram.com" class="fa fa-instagram"></a>instagram</li>
+                <li class="col-sm-6"><a href="https://www.facebook.com/profile.php?id=100004473738754" class="fa fa-facebook"></a>Facebook</li>
+                <li class="col-sm-6"><a href="https://instagram.com/halliganwebdev" class="fa fa-instagram"></a>Instagram</li>
             </ul>
             <ul class="row">
-                <li class="col-sm-6"><a href="https://linkedin.com" class="fa fa-linkedin"></a>linkedin</li>
-                <li class="col-sm-6"><a href="https://google.com" class="fa fa-google"></a>google</li>
+                <li class="col-sm-6"><a href="https://www.linkedin.com/in/matthew-halligan-a56002187/" class="fa fa-linkedin"></a>LinkedIn</li>
+                <li class="col-sm-6"><a href="https://www.youtube.com/channel/UCZ8pkwlGqt-19A5z86P98tQ?view_as=subscriber" class="fa fa-youtube"></a>Youtube</li>
             </ul>
         </article> 
     </section>
-    <span>&COPY; Copyrights. All Rights Reserved</span> <br>
+    <span>&COPY; Copyright Halligan Web Development. All Rights Reserved</span> <br>
     <span><a href="require_login/admin.php" style="font-size:0.6em">Admin</a></span>  
 </footer>
