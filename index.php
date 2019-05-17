@@ -5,17 +5,13 @@ include "top.php";
 
 <header id="index-header">
     <img class="header-image" src="images/laptopimagedark.png" alt="">
-    <h1>Hey! We're TSN Industries</h1>
-    <p>We make modern and responsive websites and apps!</p>
+    <h1>Welcome to Halligan Web Development!</h1>
+    <p>Transform Your Website From A Weak Link To A Strong Asset</p>
     <a href="contact.php" class="btn"> CONTACT US </a>
     <span class="company-partners">
-        <img class="company-logo" src="https://www.uvm.edu/sites/default/files/UVMLogoSolidBlack.png" alt="UVM logo">
-        <img class="company-logo" src="https://greenmountainsoftware.com/wp-content/uploads/2017/08/WE2.png" alt="UVM WE Logo">
-        <img class="company-logo" src="https://nnimako.w3.uvm.edu/cs148/thecnbswapper/images/logo.png" alt="The CNB Swapper Logo">
-        <img class="company-logo" src="https://www.airconwithme.com/wp-content/uploads/2016/08/appstore.png" alt="Icon to show app store">
-        <img class="company-logo" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" alt="Icon to show android app store">
-        <img class="company-logo" src="https://nnimako.w3.uvm.edu/cs008/final_project/images/final_logo.png" alt="Save Our Sweeties Logo">
-    </span>
+        <img class="company-logo black" src="https://mtfucoach.com/wp-content/uploads/2017/12/MTFU_LONGEVITY_LOGO.png" alt="MTFU longevity" >
+        <img class="company-logo black" src="https://thesuperiorbarbershop.com/images/logo.png" alt="The Superior Barbershop">
+        </span>
 </header>
 
 
@@ -28,51 +24,61 @@ include "top.php";
       <article class="row our-offerings">
         <h6 class="hide" >Hello</h6>
         <article class="col-lg-4 ml-auto">
-          <h2>Mobile Applications</h2>
-          <p class="lead responsive-design-p">In the shop for a full stack mobile app? We've developed for both Android and IOS and can even make webapps that work natively on desktop and mobile.</p>
+          <h2>We're Secure!</h2>
+          <p class="lead responsive-design-p">
+              Your Data Privacy is of the utmost importance to us.
+              We take precautions to secure your data from attackers by using encryption and industry best practices.
+          </p>
           <a href="#"><h5>Learn More!</h5>
           <hr></a> 
         </article>
         <article class="col-lg-4 mr-auto">
-          <h6 class="hide" >Hello</h6>
-            <img class="what-we-do-image" src="images/iphone-x.png" alt="Image of an iphone x">
-        </article>
-      </article>
-      <!-- I got the image above from the link below, it's copyright free -->
-      <!-- https://pixabay.com/illustrations/iphone-x-vector-image-iphone-3422655/ -->
-
-      <article class="row our-offerings">
-        <h6 class="hide" >Hello</h6>
-        <article class="col-lg-4 ml-auto">
           <h6 class="hide" >Hello</h6>
             <img class="what-we-do-image" src="images/hard-disk.png" alt="Image of a hard drive">
         </article>
-        <article class="col-lg-4 mr-auto">
-            <h2>We're Secure!</h2>
-          <p class="lead responsive-design-p">Whether it's an SQL injection or a DDOS attack on your servers, we've got you covered. We make sure that all your data is completely protected along with insurance for every project.</p>
-          <a href="#"><h5>Learn More!</h5>
-          <hr></a> 
-        </article>
       </article>
-<!-- 
-      Got the image from the link below, copyright free
-      https://pixabay.com/vectors/hard-disk-technology-electronics-42935/ -->
+      <!-- I got the image above from the link below, it's copyright free -->
+      <!-- https://pixabay.com/vectors/computer-server-data-center-tower-304815/ -->
 
       <article class="row our-offerings">
         <h6 class="hide" >Hello</h6>
         <article class="col-lg-4 ml-auto">
-            <h2>Data Analytics</h2>
-          <p class="lead responsive-design-p">Analyzing data isn’t an easy thing to do, it requires time management, problem-solving, critical thinking, and good storytelling, apart from other skills. Through the years of dedication and hard work, we've have sharpened and polished those skills.</p>
+          <h6 class="hide" >Hello</h6>
+            <img class="what-we-do-image" src="images/server.png" alt="Image of a hard drive">
+        </article>
+        <article class="col-lg-4 mr-auto">
+            <h2>Fully Managed Web Hosting</h2>
+          <p class="lead responsive-design-p">
+              Spending hours learning why your website is not working is a great waste of your time.
+              We've likely encountered your issue before and can have it solved quickly all while its business as
+              usual for you.
+          </p>
+          <a href="#"><h5>Learn More!</h5>
+          <hr></a>
+        </article>
+      </article>
+<!--
+      Got the image from the link below, copyright free
+      https://pixabay.com/illustrations/server-cloud-design-plane-icon-3297974/ -->
+
+      <article class="row our-offerings">
+        <h6 class="hide" >Hello</h6>
+        <article class="col-lg-4 ml-auto">
+            <h2>Educating You Along The Way</h2>
+          <p class="lead responsive-design-p">
+              Here at Halligan Web Development, We care to educate you about our business and services in every step of the
+              process.  Your questions will be met with prompt, understandable responses.
+          </p>
           <a href="#"><h5>Learn More!</h5>
           <hr></a> 
         </article>
         <article class="col-lg-4 mr-auto">
           <h6 class="hide" >Hello</h6>
-            <img class="what-we-do-image" src="images/graph.png" alt="image of data analytics">
+            <img class="what-we-do-image" src="images/atom.png" alt="image of data analytics">
         </article>
       </article>
       <!-- Got the image from the link below, it's copyright free
-      https://pixabay.com/vectors/graph-chart-bar-pie-presentation-27167/ -->
+      https://pixabay.com/vectors/atom-atomic-model-icon-nuclear-1294810/ -->
 
 
     </article>
