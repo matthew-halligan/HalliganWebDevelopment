@@ -1,5 +1,6 @@
+
 <?php
-//%^%^%^%^%^%^%^%^%^%^%//       
+//%^%^%^%^%^%^%^%^%^%^%//
 print  PHP_EOL . '<!-- SECTION: 1 Initialize variables -->' . PHP_EOL; // These variables are used in both sections 2 and 3, otherwise we would
 // declare them in the section we needed them
 
@@ -184,11 +185,11 @@ if ($conn->query($sql) === TRUE) {
 //
 print PHP_EOL . '<!-- SECTION 3 Display Form -->' . PHP_EOL;
 //
-?>       
+?>
 <footer class="footer navbar-fixed-bottom">
         <article class="sign-up">
             <h6 class="hide" >Hello</h6>
-            <p>Stay connected; join our newsletter</p>
+    <!--    <p>Stay connected; join our newsletter</p>  -->
     <?php
     //####################################
     //
@@ -244,17 +245,17 @@ print PHP_EOL . '<!-- SECTION 3 Display Form -->' . PHP_EOL;
             this prints out a css class so that we can highlight the background etc. to
             make it stand out that a mistake happened here.
        */
-?>    
+?>
 
 
-
-<form action = "<?php print $phpSelf; ?>"
+<!--
+<form action = "<?php /*print $phpSelf; */?>"
           id = "frmSignUp"
           method = "post"
           class = "sign-upForm">
           <p class="row">
             <input 
-               <?php if ($emailERROR) print 'class="mistake"'; ?>
+               <?php /*if ($emailERROR) print 'class="mistake"'; */?>
                                    id = "txtEmailSignUp"     
                                    maxlength = "45"
                                    name = "txtEmailSignUp"
@@ -262,11 +263,11 @@ print PHP_EOL . '<!-- SECTION 3 Display Form -->' . PHP_EOL;
                                    placeholder = "Enter your email address"
                                    tabindex = "120"
                                    type = "text"
-                                   value = "<?php print $email; ?>"
+                                   value = "<?php /*print $email; */?>"
                             >
                             <input class = "button" id = "btnSubmitSignUp" name = "btnSubmitSignUp" tabindex = "900" type = "submit" value = "Sign Up" >
                     </p>
-</form>     
+</form>     -->
 <?php
     } // ends body submit
 ?>
