@@ -2,17 +2,25 @@
 include "top.php";
 ?>
 <main class="container-fluid" id="main-index">
+    <head>
+        <title>
+            Halligan Web Development - Transform Your Website To A Strong Asset
+        </title>
+        <meta name="description" content="Halligan Web Development specializing in transforming your website from a weak link in your business to a strong asset.">
+        <meta name="keywords" content="Web Development,Web Hosting,developer,Wallingford Web Development,Web Development Wallingford CT,local">
 
-<header id="index-header">
-    <img class="header-image" src="images/laptopimagedark.png" alt="">
-    <h1>Welcome to Halligan Web Development!</h1>
-    <p>Transform Your Website From A Weak Link To A Strong Asset</p>
-    <a href="contact.php" class="btn"> CONTACT US </a>
-    <span class="company-partners">
-        <img class="company-logo black" src="https://mtfucoach.com/wp-content/uploads/2017/12/MTFU_LONGEVITY_LOGO.png" alt="MTFU longevity" >
-        <img class="company-logo black" src="https://thesuperiorbarbershop.com/images/logo.png" alt="The Superior Barbershop">
-        </span>
-</header>
+    </head>
+
+    <header id="index-header">
+        <img class="header-image" src="images/laptopimagedark.png" alt="">
+        <h1>Welcome to Halligan Web Development!</h1>
+        <p>Transform Your Website From A Weak Link To A Strong Asset</p>
+        <a href="contact.php" class="btn"> CONTACT US </a>
+        <span class="company-partners">
+            <img class="company-logo black" src="https://mtfucoach.com/wp-content/uploads/2017/12/MTFU_LONGEVITY_LOGO.png" alt="MTFU longevity" >
+            <img class="company-logo black" src="https://thesuperiorbarbershop.com/images/logo.png" alt="The Superior Barbershop">
+            </span>
+    </header>
 
 
 <!-- WHAT WE DO STARTS HERE -->
