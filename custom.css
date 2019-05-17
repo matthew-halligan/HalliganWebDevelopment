@@ -37,3 +37,11 @@ footer {
 h6.hide{
 	display: none;
 }
+
+@media only screen and (max-width: 600px) {
+
+    footer{
+        height: 800px;
+	}
+	
+}
