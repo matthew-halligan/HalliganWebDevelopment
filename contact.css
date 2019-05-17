@@ -1,0 +1,84 @@
+#contact {
+}
+#contact main#main-contact article.contact-intro{
+    width: 1040px;
+    max-width: 100%;
+    margin: 5% auto;
+}
+
+#contact main#main-contact article.contact-intro h2{
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+#contact main#main-contact article.contact-intro p{
+    font-size: 1.2rem;
+}
+
+#contact form#frmRegister{
+    display: block;
+    margin: auto;
+    max-width: 50em;
+    background-color: white;
+    opacity: 0.8;
+    font-weight: bolder;
+    border-radius: 0.5em;
+}
+
+#contact #frmRegister fieldset{
+    clear: both;
+    margin: 1%;
+    padding: 2%;
+}
+
+#contact label.required{
+    float: left;
+    display: block;
+    text-align: right;
+    width: 10em;
+    padding: 2%;
+}
+
+#contact form#frmRegister input{
+    padding: 2%;
+    width: 20rem;
+    max-width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#contact fieldset.buttons{
+    width: 25%;
+    margin: auto;
+    padding: 2%;
+}
+
+#contact  form#frmRegister input.button{
+    height: 2em;
+    font-size: 1.3em;
+    width: 100%;
+    border-radius: 0.5em;
+    background-color: #b7fbff;
+}
+
+#contact textarea#txtComments{
+    height: 10em;
+    width: 100%;
+}
+
+#contact input.mistake{
+    background-color: rgba(255,0,0,0.6);
+}
+
+#contact div#errors{
+    background-color: aliceblue;
+    opacity: 0.8;
+    padding: 1em;
+}
+
+#contact form#frmRegister {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    max-width: 650px;
+    padding: 20px 20px 30px 30px;
+    background-color: #B8FBFF;
+}

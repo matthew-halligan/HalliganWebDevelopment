@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 4, 2019, 3:15:51 AM
+    Author     : andre
+*/
+
+#faq article.questions{
+	width: 1200px;
+	max-width: 100%;
+	margin: 5% auto;
+}
+
+#faq h2.first-header{
+	width: 1020px;
+	max-width: 100%;
+	margin: 5% auto 1% auto;
+}
+
+#faq section.text-center a{
+	font-weight: 300;
+    border-radius: 5px;
+    font-size: 1.2em;
+    padding: 2px 50px 2px 50px;
+    background-color: #b7fbff;
+    color: black;
+
+}

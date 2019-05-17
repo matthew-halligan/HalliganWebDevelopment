@@ -1,0 +1,19 @@
+nav.navbar{
+	background:rgba(45,45,45,0.98);
+}
+
+nav #navbarNavDropdown li.nav-item a.nav-link{
+	color: #fff;
+}
+
+nav #navbarNavDropdown ol.navbar-nav{
+	margin: 0 2%;
+}
+
+.activePage{
+	border-bottom: 2px solid #b7fbff;
+}
+
+nav #navbarNavDropdown li.nav-item a.nav-link:hover{
+	border-bottom: 2px solid #8165E5;
+}

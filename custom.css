@@ -1,0 +1,39 @@
+@import url("about.css");
+@import url("index.css");
+@import url("nav.css");
+@import url("admin.css");
+@import url("contact.css");
+@import url("footer.css");
+@import url("footer2.css");
+@import url("portfolio.css");
+@import url("blog.css");
+@import url("faq.css");
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,900');
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+html,body {
+	height: 100%;
+}
+
+
+main{
+	min-height: 100%;
+}
+
+footer {
+	margin-top: 100px;
+	position: relative;
+	height: 400px;
+	clear: both;
+	background-color: #f2f2f2;
+}
+
+.row{
+	margin: 0 !important;
+}
+
+h6.hide{
+	display: none;
+}

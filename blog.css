@@ -1,0 +1,14 @@
+#blog main#main-blog section.row{
+	padding: 1%;
+}
+#blog iframe{
+	padding: 2% 4%;
+	border-radius: 0.4em;
+	max-width: 100%;
+	margin-top: 15px;
+	width: 320px;
+	height: 180px;
+	border: none;
+	/*frameborder="0";
+ 	allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"*/
+}

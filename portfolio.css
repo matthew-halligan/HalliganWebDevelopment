@@ -1,0 +1,92 @@
+#portfolio main#main-portfolio article{
+	width: 1040px;
+	max-width: 100%;
+	margin: 5% auto;
+}
+
+#portfolio main#main-portfolio article h2{
+	font-size: 3.2rem;
+	font-weight: bold;
+}
+
+#portfolio main#main-portfolio article p.portfolio-intro{
+	font-size: 1.2rem;
+}
+
+#portfolio .card-body{
+    text-align: center;
+}
+
+#portfolio .about-us-card-image-portfolio{
+    border-radius: 50%;
+    top: 0;
+    width: 150px;
+}
+
+#portfolio .card{
+    margin-top: 100px;
+}
+
+article.card.col-sm-3.view.overlay.c1{
+	background-image: url("images/cnb.jpg");
+	background-size: cover;
+}
+
+article.card.col-sm-3.view.overlay.c2{
+	background-image: url("images/movie.png");
+	background-size: cover;
+}
+
+article.card.col-sm-3.view.overlay.c3{
+	background-image: url("images/photographers.jpg");
+	background-size: cover;
+}
+
+article.card.col-sm-3.view.overlay.c4{
+	background-image: url("images/sos.png");
+	background-size: cover;
+}
+
+article.card.col-sm-3.view.overlay.c5{
+	background-image: url("images/eximius.png");
+	background-size: cover;
+}
+
+article.card.col-sm-3.view.overlay.c6{
+	background-image: url("images/afc.jpg");
+	background-size: cover;
+}
+
+article.card.col-sm-3.view.overlay.c7{
+	background-image: url("images/affirm.jpg");
+	background-size: cover;
+}
+
+article.card.col-sm-3.view.overlay.c8{
+	background-image: url("images/money.jpg");
+	background-size: cover;
+}
+
+article.card.col-sm-3.view.overlay.c9{
+	background-image: url("images/wherecanIwatch.png");
+	background-size: cover;
+}
+
+#portfolio span .fa{
+	font-size: 1.5em;
+	background-color: black;
+	border-radius: 50%;
+	padding: 2%;
+	width: 10%;
+}
+
+#portfolio article.mask.rgba-white-strong p.black-text{
+	font-size: 1.1em;
+	padding: 1%;
+}
+
+#portfolio article.card-body .card-title{
+	padding: 12%;
+	background-color: rgba(250,250,241,0.6);
+	border-radius: 1em;
+}

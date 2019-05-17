@@ -1,0 +1,38 @@
+body{
+    height: 100%;
+    margin: auto;
+    max-width: 100%;
+    padding: 0%;
+}
+
+table{
+	width:95%;
+	margin: 2% auto;
+	border-collapse: collapse;
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+thead th{
+	padding:1.5% 0;
+	background-color: #55608f;
+	color: white;
+	text-transform: uppercase;
+}
+
+td{
+	padding:1%;
+}
+
+td a{
+	text-decoration:none;
+    color: blue;
+}
+
+tbody tr:nth-child(odd){
+	background-color:rgba(253,252,252,0.8);
+}
+
+tbody tr:hover{
+	background-color: rgba(255,215,0,0.5);
+	transition: 0.5s;
+}
