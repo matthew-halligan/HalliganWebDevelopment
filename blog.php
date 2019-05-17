@@ -54,10 +54,11 @@ THIS IS A TEMPLATE OF EACH CARD, THEY WILL ALL COME OUT WITH THE HTML LOOKING LI
 
 <?php
 
-			$servername = "localhost";
-$username = "username";
-$password = "password";
-$dbname = "myDB";
+$servername = "localhost";
+$username = "harryptt_142user";
+$password = "142user";
+$dbname = "harryptt_CS142Final";
+
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -78,7 +79,7 @@ if ($result->num_rows > 0) {
 			echo '<h6 class="hide" >Hello</h6>';
 			echo '<article class="col-md-4">';
 			echo '<h6 class="hide" >Hello</h6>';
-			echo '<iframe  src="' . $row["fldUrl"]. '"  allowfullscreen></iframe>';
+			echo '<iframe  src="' . $row["fldUrl"]. '"  allowfullscreen></iframe>'; //THE URL NEEDS TO BE AN EMBED URL LIKE https://www.youtube.com/embed/gFGuQp9Vde8
 			echo '</article>';
 			echo '<article class="col-md-8">';
 			echo '<h6 class="hide" >Hello</h6>';
