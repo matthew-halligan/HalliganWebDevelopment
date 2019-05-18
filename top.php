@@ -8,8 +8,10 @@ $debug = false;
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="author" content="Andres Salcedo, Nana Nimako, Prasidha Timsina">
-        <meta name="description" content="A web desing company that has all you need.">
+        <meta name="author" content="Matt Halligan">
+        <meta name="description" content="Halligan Web Development specializing in transforming your website from a weak link in your business to a strong asset.">
+        <meta name="keywords" content="Web Development,Web Hosting,developer,Wallingford Web Development,Web Development Wallingford CT,local">
+
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Bootstrap  Link -->
         <!-- Bootstrap Received from: https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
@@ -107,7 +109,7 @@ $debug = false;
         ?>	
 
             
-        <title>TSN Industries</title>
+        <title>Halligan Web Development</title>
     </head>
 
     <!-- **********************     Body section      ********************** -->
