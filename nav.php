@@ -81,6 +81,10 @@
 
                 
             } else {
+
+                /* This is where the code starts for actual nav. Upper is for CS Class */
+
+                
                 /*Home*/
                 print '<li class="';
                 if ($path_parts['filename'] == "index") {
@@ -127,13 +131,13 @@
                 print '</li>';
 
                 /*faq*/
-                print '<li class="';
-                if ($path_parts['filename'] == "faq") {
-                    print ' activePage ';
-                }
-                print ' nav-item">';
-                print '<a class = "nav-link" href="faq.php">FAQs</a>';
-                print '</li>';
+                //print '<li class="';
+                //if ($path_parts['filename'] == "faq") {
+                //    print ' activePage ';
+                //}
+                //print ' nav-item">';
+                //print '<a class = "nav-link" href="faq.php">FAQs</a>';
+                //print '</li>';
 
                 
         

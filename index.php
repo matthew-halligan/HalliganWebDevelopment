@@ -192,6 +192,9 @@ include "top.php";
   </section>
 </section>
 
+    <!-- Blog Area Starts Here -->
+
+    <!--
     <section id="blog-video">
       <h6 class="hide" >Hello</h6>
       <article class="row">
@@ -207,7 +210,7 @@ include "top.php";
         </article>
       </article>
       </section>
-
+      -->
 </main>
 
 <?php include "footer.php"; ?>

@@ -10,7 +10,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
-
+//this is the code to change in order to test new sql functions
 $sql = "INSERT INTO tblContactPage (fldFirstName, fldLastName, fldEmail, fldComments)
 VALUES ('pra', 'timsina', 'testprasidhatimsina@gmail.com', 'Lets hang!')";
 
