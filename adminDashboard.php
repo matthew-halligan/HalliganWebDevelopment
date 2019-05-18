@@ -1,3 +1,13 @@
+<!-- 
+THIS IS WHERE I PUT THE PASSWORD ENTRY TO GET ACCESS TO ADMIN DASHBOARD
+IF YOU ENTER THE PASSWORD CORRECTLY INTO THE FORM, IT WILL DISPLAY THE ADMIN DASHBOARD
+THE PASSWORD IS ON LINE 46 AND YOU CAN CHANGE IT TO BE WHATEVER YOU WANT -->
+<h1>Enter in the Admin Password</h1>
+<form method="post" action="">
+<input type="text" name="value">
+<input type="submit">
+</form>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -32,6 +42,10 @@
 
 <body>
 <?php
+    echo $_POST['value'];
+    $userPassword = 1234;
+    if ($_POST['value'] == $userPassword) {
+       
 
 $servername = "localhost";
 $username = "harryptt_142user";
@@ -49,6 +63,7 @@ $sql = "SELECT pmkContactId, fldFirstName, fldLastName, fldEmail, fldComments FR
 $records = $conn->query($sql);
 
 $isAdmin = true;
+
 
 
 $result = $conn->query($sql);
@@ -91,6 +106,6 @@ if ($result->num_rows > 0) {
 
 
 $conn->close();
+    }
 ?>
-
 </body>
