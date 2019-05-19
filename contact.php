@@ -23,8 +23,8 @@ print PHP_EOL . '<!-- SECTION: 1b form variables -->' . PHP_EOL;
 //
 // Initialize variables one for each form element
 // in the order they appear on the form
-$firstName = "";
-$lastName = "";   
+$name = "";
+$phone = "";
 $email = "";    
 $comments = ""; 
 //%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%
@@ -33,8 +33,8 @@ print PHP_EOL . '<!-- SECTION: 1c form error flags -->' . PHP_EOL;
 //
 // Initialize Error Flags one for each form element we validate
 // in the order they appear on the form
-$firstNameERROR = false;
-$lastNameERROR = false;
+$NameERROR = false;
+$phoneERROR = false;
 $emailERROR = false;
 $commentsERROR = false;       
 ////%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%
@@ -63,9 +63,9 @@ if (isset($_POST["btnSubmit"])) {
     print PHP_EOL . '<!-- SECTION: 2b Sanitize (clean) data  -->' . PHP_EOL;
     // remove any potential JavaScript or html code from users input on the
     // form. Note it is best to follow the same order as declared in section 1c.
-    $firstName = htmlentities($_POST["txtFirstName"], ENT_QUOTES, "UTF-8");      
+    $firstName = htmlentities($_POST["txtName"], ENT_QUOTES, "UTF-8");
 
-    $lastName = htmlentities($_POST["txtLastName"], ENT_QUOTES, "UTF-8");   
+    $lastName = htmlentities($_POST["intPhone"], ENT_QUOTES, "UTF-8");
     
     $email = filter_var($_POST["txtEmail"], FILTER_SANITIZE_EMAIL);       
 
@@ -82,21 +82,21 @@ $dbname = "harryptt_CS142Final";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-} 
-
-$sql = "INSERT INTO tblContactPage (fldFirstName, fldLastName, fldEmail, fldComments)
-VALUES ('". $firstName ."', '". $lastName ."', '". $email ."', '". $comments ."')";
-
-if ($conn->query($sql) === TRUE) {
-    echo "New record created successfully";
-} else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
-}
-
-
-$conn->close();
+//if ($conn->connect_error) {
+//    die("Connection failed: " . $conn->connect_error);
+//}
+//
+//$sql = "INSERT INTO tblContactPage (fldFirstName, fldLastName, fldEmail, fldComments)
+//VALUES ('". $firstName ."', '". $lastName ."', '". $email ."', '". $comments ."')";
+//
+//if ($conn->query($sql) === TRUE) {
+//    echo "New record created successfully";
+//} else {
+//    echo "Error: " . $sql . "<br>" . $conn->error;
+//}
+//
+//
+//$conn->close();
 
     //end database stuff
 
@@ -120,11 +120,11 @@ $conn->close();
         $firstNameERROR = true;
     }
 
-    if ($lastName == "") {
-        $errorMsg[] = "Please enter your last name";
+    if ($phone == "") {
+        $errorMsg[] = "Please enter your phone number";
         $lastNameERROR = true;
-    } elseif (!verifyAlphaNum($lastName)) {
-        $errorMsg[] = "Your last name appears to have extra character.";
+    } elseif (!verifyPhone($phone)) {
+        $errorMsg[] = "Your phone number appears to have extra character.";
         $lastNameERROR = true;
     }
     
@@ -151,7 +151,7 @@ print PHP_EOL . '<!-- SECTION 3 Display Form -->' . PHP_EOL;
 <main class="container-fluid" id="main-contact">  
     <article class="contact-intro">
         <h2>Contact Us</h2>
-        <p>TSN Industries is here to bring all your ideas visible on a website. We are willing to
+        <p>Halligan Web Development is here to bring all your ideas visible on a website. We are willing to
         provide with as useful information as possible. Please fill out the form below 
         and we can assure you to get back as soon as possible with all questions answered.</p>
     </article>

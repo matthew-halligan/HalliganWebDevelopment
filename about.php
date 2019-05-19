@@ -17,8 +17,8 @@ include "top.php";
       <article class="card-body">
         <h5 class="card-title">Project Manager</h5>
         <p class="card-text about-us-min-height">Matt is our project manager and coordinator.  He is your point of contact from beginning to end of
-            your project and works to create a seamless experience to deliver all of your desired outcomes. Check out his
-            linkedin below and don't forget to connect!
+            your project and works to create a seamless experience to deliver all of your desired outcomes. Connect with him
+            on LinkedIn Below!
         </p>
         <a href="https://www.linkedin.com/in/prasidhatimsina/" target="_blank"  class="btn btn-primary">View Linkedin</a>
       </article>
@@ -32,8 +32,13 @@ include "top.php";
     <article class="card">
       <h6 class="hide" >Hello</h6>
       <article class="card-body">
-        <h5 class="card-title">Lead Developer</h5>
-        <p class="card-text about-us-min-height">Nana Nimako is our backend developer, he works really hard using multiple languages to make a funtional website. Though his is not visible on the web for users, he ensure the smoothess of everything on the server. You will be lucky to have him work in your site. You can also check him linkedIn. Click on the link below!</p>
+        <h5 class="card-title">Lead Designer</h5>
+        <p class="card-text about-us-min-height">
+            Nana Nimako is our backend developer, he works really hard using multiple
+            languages to make a funtional website. Though his is not visible on the web for users, he ensure the smoothess
+            of everything on the server. You will be lucky to have him work in your site. You can also check him linkedIn.
+            Click on the link below!
+        </p>
         <a href="https://www.linkedin.com/in/nana-nimako/" target="_blank"  class="btn btn-primary">View Linkedin</a>
       </article>
     </article>
@@ -55,7 +60,7 @@ include "top.php";
             -->
 </article>
 </section>
-
+<!--
 <section class="how-we-met">
     <h2>How did we meet?</h2>  
     <section class="text-center">
@@ -63,7 +68,7 @@ include "top.php";
     </section>
     <p class="how-we-met-content">The three of us met during the summer before our freshmen year at UVM. We were all in a program called SESP where we got to spend a month on campus before classes started so we could all get used to the college life. This is when we all became great friends and found out we were all Computer Science students. We knew from that point on that we'd want to work together in the future, both in school and professionaly and the idea of our company formed. Today we are all in the summer before our junior year at UVM and eager to get out there and build more amazing websites and apps. Check out what we're up to in our blog and check out our current and past projects in the portfolio.  </p>  
 </section>
-
+-->
 </main>
 
 <?php include "footer.php"; ?>
