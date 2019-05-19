@@ -11,41 +11,48 @@ include "top.php";
   <h6 class="hide" >Hello</h6>
   <article class="col-sm-12 col-md-9 col-lg-4">
     <h6 class="hide" >Hello</h6>
-    <img class="about-us-card-image" src="https://scontent.fbtv1-1.fna.fbcdn.net/v/t1.0-9/48427481_2105780746150357_5366782432030752768_o.jpg?_nc_cat=109&_nc_ht=scontent.fbtv1-1.fna&oh=079a2cf06fb5c011e81dab83ec64825e&oe=5D2929DD" alt="">
+    <img class="about-us-card-image" src="https://media.licdn.com/dms/image/C4D03AQGlA2Xoxrj3BQ/profile-displayphoto-shrink_100_100/0?e=1564012800&v=beta&t=ShiCbQpb70ZKB0ZqrM2PySiFDU-11wSAiWJWU6LCkLo" alt="">
     <article class="card">
       <h6 class="hide" >Hello</h6>
       <article class="card-body">
-        <h5 class="card-title">Frontend Developer</h5>
-        <p class="card-text">Prasidha is a software engineer with us, he's worked on developing full stack apps before and brings that knowledge to our team. He is excited to be working on this project. He's launched apps for both android and IOS for the UVM Wellness Environment. Check out his linkedin below.</p>
+        <h5 class="card-title">Project Manager</h5>
+        <p class="card-text about-us-min-height">Matt is our project manager and coordinator.  He is your point of contact from beginning to end of
+            your project and works to create a seamless experience to deliver all of your desired outcomes. Check out his
+            linkedin below and don't forget to connect!
+        </p>
         <a href="https://www.linkedin.com/in/prasidhatimsina/" target="_blank"  class="btn btn-primary">View Linkedin</a>
       </article>
     </article>
   </article>
+
+
   <article class="col-sm-12 col-md-9 col-lg-4">
     <h6 class="hide" >Hello</h6>
   <img class="about-us-card-image" src="https://scontent.fbtv1-1.fna.fbcdn.net/v/t1.0-9/49050809_500494410457667_2814995125703278592_o.jpg?_nc_cat=101&_nc_ht=scontent.fbtv1-1.fna&oh=b4988d33b9c8bd7ab53c4daf6d2fa895&oe=5D3ACA8E" alt="">
     <article class="card">
       <h6 class="hide" >Hello</h6>
       <article class="card-body">
-        <h5 class="card-title">Backend Developer</h5>
-        <p class="card-text">Nana Nimako is our backend developer, he works really hard using multiple languages to make a funtional website. Though his is not visible on the web for users, he ensure the smoothess of everything on the server. You will be lucky to have him work in your site. You can also check him linkedIn. Click on the link below!</p>
+        <h5 class="card-title">Lead Developer</h5>
+        <p class="card-text about-us-min-height">Nana Nimako is our backend developer, he works really hard using multiple languages to make a funtional website. Though his is not visible on the web for users, he ensure the smoothess of everything on the server. You will be lucky to have him work in your site. You can also check him linkedIn. Click on the link below!</p>
         <a href="https://www.linkedin.com/in/nana-nimako/" target="_blank"  class="btn btn-primary">View Linkedin</a>
       </article>
     </article>
   </article>
+      <!--
+        <article class="col-sm-12 col-md-9 col-lg-4">
+          <h6 class="hide" >Hello</h6>
+        <img class="about-us-card-image" src="https://media.licdn.com/dms/image/C4E03AQHggcbxDWyE5w/profile-displayphoto-shrink_800_800/0?e=1562803200&v=beta&t=gPY3gy2aoQqnHsMjWuxPsRJdLtXJwjQFz9Eooya1C9Q" alt="">
+          <article class="card">
+            <h6 class="hide" >Hello</h6>
+            <article class="card-body">
+              <h5 class="card-title">Content Developer</h5>
+              <p class="card-text about-us-min-height">Andres is a data scientist. With these skills and deep love for data science, he has been able to work on many projects that have been presented to deans, vice-provosts, and professors. With his work, he hopes to help people choose the right path to take and further help the community wherever he may reside.</p>
+              <a href="https://www.linkedin.com/in/andres-salcedo/" target="_blank" class="btn btn-primary">View Linkedin</a>
+            </article>
+          </article>
+        </article>
 
-  <article class="col-sm-12 col-md-9 col-lg-4">
-    <h6 class="hide" >Hello</h6>
-  <img class="about-us-card-image" src="https://media.licdn.com/dms/image/C4E03AQHggcbxDWyE5w/profile-displayphoto-shrink_800_800/0?e=1562803200&v=beta&t=gPY3gy2aoQqnHsMjWuxPsRJdLtXJwjQFz9Eooya1C9Q" alt="">
-    <article class="card">
-      <h6 class="hide" >Hello</h6>
-      <article class="card-body">
-        <h5 class="card-title">Content Developer</h5>
-        <p class="card-text">Andres is a data scientist. With these skills and deep love for data science, he has been able to work on many projects that have been presented to deans, vice-provosts, and professors. With his work, he hopes to help people choose the right path to take and further help the community wherever he may reside.</p>
-        <a href="https://www.linkedin.com/in/andres-salcedo/" target="_blank" class="btn btn-primary">View Linkedin</a>
-      </article>
-    </article>
-  </article>
+            -->
 </article>
 </section>
 
