@@ -211,14 +211,14 @@ print PHP_EOL . '<!-- SECTION 3 Display Form -->' . PHP_EOL;
                 <fieldset class = "contact">
                     <legend>Contact Information</legend>
                     <p>
-                        <label class="required" for="txtFirstName">First Name</label>  
+                        <label class="required" for="txtFirstName">Your Name</label>
                         <input autofocus
                                 <?php if ($firstNameERROR) print 'class="mistake"'; ?>
                                 id="txtFirstName"
                                 maxlength="45"
-                                name="txtFirstName"
+                                name="name"
                                 onfocus="this.select()"
-                                placeholder="Enter your first name"
+                                placeholder="Enter your name"
                                 tabindex="100"
                                 type="text"
                                 value="<?php print $firstName; ?>"                    
@@ -226,17 +226,17 @@ print PHP_EOL . '<!-- SECTION 3 Display Form -->' . PHP_EOL;
                     </p>
 
                     <p>
-                        <label class="required" for="txtLastName">Last Name</label>  
+                        <label class="required" for="txtLastName">Phone Number</label>
                         <input
-                                <?php if ($lastNameERROR) print 'class="mistake"'; ?>
+                                <?php if ($phoneERROR) print 'class="mistake"'; ?>
                                 id="txtLastName"
                                 maxlength="45"
-                                name="txtLastName"
+                                name="phone"
                                 onfocus="this.select()"
-                                placeholder="Enter your last name"
+                                placeholder="Enter your phone number"
                                 tabindex="100"
                                 type="text"
-                                value="<?php print $lastName; ?>"                    
+                                value="<?php print $phone; ?>"
                         >                    
                     </p>
                     
@@ -246,7 +246,7 @@ print PHP_EOL . '<!-- SECTION 3 Display Form -->' . PHP_EOL;
                                    <?php if ($emailERROR) print 'class="mistake"'; ?>
                                    id = "txtEmail"     
                                    maxlength = "45"
-                                   name = "txtEmail"
+                                   name = "email"
                                    onfocus = "this.select()"
                                    placeholder = "Enter your email address"
                                    tabindex = "120"
@@ -260,7 +260,7 @@ print PHP_EOL . '<!-- SECTION 3 Display Form -->' . PHP_EOL;
                 <label for="txtComments">Comments/Questions</label><br/>
                 <textarea <?php if ($commentsERROR) print 'class="mistake problem"'; ?>
                     id="txtComments"
-                    name="txtComments"
+                    name="message"
                     onfocus="this.select()"
                     placeholder="Enter your comments/questions or concerns"
                     tabindex="460"><?php print $comments; ?></textarea>

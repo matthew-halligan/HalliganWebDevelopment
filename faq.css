@@ -25,7 +25,11 @@ and open the template in the editor.
     border-radius: 5px;
     font-size: 1.2em;
     padding: 2px 50px 2px 50px;
-    background-color: #b7fbff;
+
     color: black;
 
+}
+
+#lightbluebtn{
+	background-color: #b7fbff;
 }

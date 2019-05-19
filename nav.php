@@ -113,13 +113,13 @@
                 print '</li>';
                 
                 /*Blog*/
-                print '<li class="';
-                if ($path_parts['filename'] == "blog") {
-                    print ' activePage ';
-                }
-                print ' nav-item">';
-                print '<a class = "nav-link" href="blog.php">Blog</a>';
-                print '</li>';
+//                print '<li class="';
+//                if ($path_parts['filename'] == "blog") {
+//                    print ' activePage ';
+//                }
+//                print ' nav-item">';
+//                print '<a class = "nav-link" href="blog.php">Blog</a>';
+//                print '</li>';
 
                 /*Contact US*/
                 print '<li class="';
@@ -131,13 +131,13 @@
                 print '</li>';
 
                 /*faq*/
-                //print '<li class="';
-                //if ($path_parts['filename'] == "faq") {
-                //    print ' activePage ';
-                //}
-                //print ' nav-item">';
-                //print '<a class = "nav-link" href="faq.php">FAQs</a>';
-                //print '</li>';
+                print '<li class="';
+                if ($path_parts['filename'] == "faq") {
+                    print ' activePage ';
+                }
+                print ' nav-item">';
+                print '<a class = "nav-link" href="faq.php">FAQs</a>';
+                print '</li>';
 
                 
         
