@@ -133,58 +133,59 @@ include "top.php";
 
 <section class="row">
 <h6 class="hide" >Hello</h6>
-  <article class="card col-sm-12 col-md-9 col-lg-3 view overlay c1" >
-    <h6 class="hide" >Hello</h6>
-    <article class="card-body">
-      <img class="about-us-card-image-portfolio" src="https://media.licdn" alt="">
-      <h5 class="card-title">The Superior Barbershop</h5>
+    <article class="card col-sm-12 col-md-9 col-lg-3 view overlay c1" >
+        <h6 class="hide" >Hello</h6>
+        <article class="card-body">
+            <img class="about-us-card-image-portfolio" src="https://media.licdn" alt="">
+            <!--<h5 class="card-title">The Superior Barbershop</h5>-->
+        </article>
+        <article class="mask  rgba-white-strong">
+              <h6 class="text-center">Project Description</h6>
+              <p class="black-text">
+                  The Superior Barbershop was in need of a website to improve their online presence outside of Facebook and Instagram.
+                  To achieve the goal of a professional online presence I created a site that brings all of the info to the forefront for anyone to find with ease.
+              </p>
+              <span>
+                    <a href="https://thesuperiorbarbershop.com" target="_blank" class="fa fa-link"></a>
+              </span>
+        </article>
     </article>
-    <article class="mask  rgba-white-strong">
-      <h6 class="text-center">Project Description</h6>
-      <p class="black-text">
-          The Superior Barbershop was in need of a website to improve their online presence outside of Facebook and Instagram.
-          To achieve the goal of a professional online presence I created a site that brings all of the info to the forefront for anyone to find with ease.
-
-      </p>
-      <span>
-        <a href="https://thesuperiorbarbershop.com" target="_blank" class="fa fa-link"></a>
-      </span>
-    </article>
-  </article>
   
-  <article class="card col-sm-12 col-md-9 col-lg-3 view overlay c2">
-    <h6 class="hide" >Hello</h6>
-    <article class="card-body">
-    <img class="about-us-card-image-portfolio" src="https://media.licdn" alt="">
-      <h5 class="card-title">MTFU Longevity</h5>
+    <article class="card col-sm-12 col-md-9 col-lg-3 view overlay c2">
+        <h6 class="hide" >Hello</h6>
+        <article class="card-body">
+            <img class="about-us-card-image-portfolio" src="https://media.licdn" alt="">
+            <!--<h5 class="card-title">MTFU Longevity</h5>-->
+        </article>
+        <article class="mask  rgba-white-strong">
+              <h6 class="text-center">Project Description</h6>
+              <p class="black-text">
+                  Mike Dusa of the MTFU Society came to me with a website in need of a store in order to sell his
+                  newly written book.  After determining goals and needs, we delivered a fully functioning store
+                  with the ability to add and remove products with ease as well as integrated PayPal checkout for easy sales.
+              </p>
+              <span>
+                    <a href="https://mtfucoach.com/shop" class="fa fa-link"></a>
+              </span>
+        </article>
     </article>
-    <article class="mask  rgba-white-strong">
-      <h6 class="text-center">Project Description</h6>
-      <p class="black-text">Mike Dusa of the MTFU Society came to me with a website in need of a store in order to sell his
-          newly written book.  After determining goals and needs, we delivered a fully functioning store
-          with the ability to add and remove products with ease as well as integrated PayPal checkout for easy sales.</p>
-      <span>
-        <a href="https://mtfucoach.com" class="fa fa-link"></a>
-      </span>
-    </article>
-  </article>
 
-  <article class="card col-sm-12 col-md-9 col-lg-3 view overlay c3" >
-    <h6 class="hide" >Hello</h6>
-    <article class="card-body">
-    <img class="about-us-card-image-portfolio" src="https://media.licdn" alt="">
-      <h5 class="card-title">Sunset Shopping Mall</h5>
+    <article class="card col-sm-12 col-md-9 col-lg-3 view overlay c3" >
+        <h6 class="hide" >Hello</h6>
+        <article class="card-body">
+            <img class="about-us-card-image-portfolio" src="https://media.licdn" alt="">
+            <!--<h5 class="card-title">Sunset Shopping Mall</h5>-->
+        </article>
+        <article class="mask  rgba-white-strong">
+              <h6 class="text-center">Project Description</h6>
+              <p class="black-text">
+                  A website designed to display amenities offered by this fictional mall.
+              </p>
+              <span>
+                  <a href="https://www.sunsetshoppingmall.com" class="fa fa-link"></a>
+              </span>
+        </article>
     </article>
-    <article class="mask  rgba-white-strong">
-      <h6 class="text-center">Project Description</h6>
-      <p class="black-text">
-          A website designed to display amenities offered by this fictional mall.
-      </p>
-      <span>
-        <a href="https://www.sunsetshoppingmall.com" class="fa fa-link"></a>
-      </span>
-    </article>
-  </article>
 </section>
   <section id="portfolio-btn" class="text-center">
     <h6 class="hide" >Hello</h6>
