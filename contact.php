@@ -23,8 +23,8 @@ print PHP_EOL . '<!-- SECTION: 1b form variables -->' . PHP_EOL;
 //
 // Initialize variables one for each form element
 // in the order they appear on the form
-$firstName = "";
-$lastName = "";
+$name = "";
+$phone = "";
 $email = "";
 $comments = "";
 //%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%
@@ -33,8 +33,8 @@ print PHP_EOL . '<!-- SECTION: 1c form error flags -->' . PHP_EOL;
 //
 // Initialize Error Flags one for each form element we validate
 // in the order they appear on the form
-$firstNameERROR = false;
-$lastNameERROR = false;
+$nameERROR = false;
+$phoneERROR = false;
 $emailERROR = false;
 $commentsERROR = false;
 ////%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%
@@ -62,8 +62,8 @@ if (isset($_POST["btnSubmit"])) {
     print PHP_EOL . '<!-- SECTION: 2b Sanitize (clean) data  -->' . PHP_EOL;
     // remove any potential JavaScript or html code from users input on the
     // form. Note it is best to follow the same order as declared in section 1c.
-    $firstName = htmlentities($_POST["txtFirstName"], ENT_QUOTES, "UTF-8");
-    $lastName = htmlentities($_POST["txtLastName"], ENT_QUOTES, "UTF-8");
+    $name = htmlentities($_POST["txtName"], ENT_QUOTES, "UTF-8");
+    $phone = htmlentities($_POST["txtPhone"], ENT_QUOTES, "UTF-8");
 
     $email = filter_var($_POST["txtEmail"], FILTER_SANITIZE_EMAIL);
     $comments = htmlentities($_POST["txtComments"], ENT_QUOTES, "UTF-8");
@@ -101,19 +101,19 @@ if (isset($_POST["btnSubmit"])) {
     // order that the elements appear on your form so that the error messages
     // will be in the order they appear. errorMsg will be displayed on the form
     // see section 3b. The error flag ($emailERROR) will be used in section 3c.
-    if ($firstName == "") {
-        $errorMsg[] = "Please enter your first name";
-        $firstNameERROR = true;
-    } elseif (!verifyAlphaNum($firstName)) {
-        $errorMsg[] = "Your first name appears to have extra character.";
-        $firstNameERROR = true;
+    if ($name == "") {
+        $errorMsg[] = "Please enter your name";
+        $nameERROR = true;
+    } elseif (!verifyAlphaNum($name)) {
+        $errorMsg[] = "Your name appears to have extra character(s).";
+        $nameERROR = true;
     }
-    if ($lastName == "") {
-        $errorMsg[] = "Please enter your last name";
+    if ($phone == "") {
+        $errorMsg[] = "Please enter your phone number";
         $lastNameERROR = true;
-    } elseif (!verifyAlphaNum($lastName)) {
-        $errorMsg[] = "Your last name appears to have extra character.";
-        $lastNameERROR = true;
+    } elseif (!verifyPhone($phone)) {
+        $errorMsg[] = "Your phone number appears to have extra character(s).";
+        $phoneERROR = true;
     }
 
     if ($email == "") {
@@ -196,32 +196,32 @@ print PHP_EOL . '<!-- SECTION 3 Display Form -->' . PHP_EOL;
                 <fieldset class = "contact">
                     <legend>Contact Information</legend>
                     <p>
-                        <label class="required" for="txtFirstName">First Name</label>
+                        <label class="required" for="txtName">Name</label>
                         <input autofocus
-                            <?php if ($firstNameERROR) print 'class="mistake"'; ?>
-                               id="txtFirstName"
+                            <?php if ($nameERROR) print 'class="mistake"'; ?>
+                               id="txtName"
                                maxlength="45"
-                               name="txtFirstName"
+                               name="txtName"
                                onfocus="this.select()"
                                placeholder="Enter your first name"
                                tabindex="100"
                                type="text"
-                               value="<?php print $firstName; ?>"
+                               value="<?php print $name; ?>"
                         >
                     </p>
 
                     <p>
-                        <label class="required" for="txtLastName">Last Name</label>
+                        <label class="required" for="txtPhone">Phone Number</label>
                         <input
-                            <?php if ($lastNameERROR) print 'class="mistake"'; ?>
-                                id="txtLastName"
+                            <?php if ($phoneERROR) print 'class="mistake"'; ?>
+                                id="txtPhone"
                                 maxlength="45"
-                                name="txtLastName"
+                                name="txtPhone"
                                 onfocus="this.select()"
-                                placeholder="Enter your last name"
+                                placeholder="Enter your phone number"
                                 tabindex="100"
                                 type="text"
-                                value="<?php print $lastName; ?>"
+                                value="<?php print $phone; ?>"
                         >
                     </p>
 
