@@ -10,20 +10,20 @@ if(!empty($_POST['sendmail'])) {
     $to      = 'matt@halliganwebdevelopment.com';
     $subject = 'Page Contact';
     $message = 'Contact from page: <br>. ';
-    if(!empty($_POST['name'])){
-        $message.=$_POST['name'] . '<br>';
+    if(!empty($_POST['txtName'])){
+        $message.=$_POST['txtName'] . '<br>';
     }
 
-    if(!empty($_POST['email'])){
-        $message.=$_POST['email'] . '<br>';
+    if(!empty($_POST['txtPhone'])){
+        $message.=$_POST['txtPhone'] . '<br>';
     }
 
-    if(!empty($_POST['phone'])){
-        $message.=$_POST['phone'] . '<br>';
+    if(!empty($_POST['txtEmail'])){
+        $message.=$_POST['txtEmail'] . '<br>';
     }
 
-    if(!empty($_POST['message'])){
-        $message.=$_POST['message'] . '<br>';
+    if(!empty($_POST['txtComments'])){
+        $message.=$_POST['txtComments'] . '<br>';
     }
 
 

@@ -1,5 +1,6 @@
 <?php
 include 'top.php';
+include 'email-handler.php';
 //%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%
 //       
 print  PHP_EOL . '<!-- SECTION: 1 Initialize variables -->' . PHP_EOL;
