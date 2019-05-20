@@ -70,25 +70,25 @@ if (isset($_POST["btnSubmit"])) {
 
     // YOU WILL NEED TO CHANGE THESE VALUES FOR YOUR OWN DATABASE CREDENTAILS
 
-    $servername = "localhost";
-    $username = "harryptt_142user";
-    $password = "142user";
-    $dbname = "harryptt_CS142Final";
-// Create connection
-    $conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-    if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
-    }
-    $sql = "INSERT INTO tblContactPage (fldFirstName, fldLastName, fldEmail, fldComments)
-VALUES ('". $firstName ."', '". $lastName ."', '". $email ."', '". $comments ."')";
-    if ($conn->query($sql) === TRUE) {
-        echo "New record created successfully";
-    } else {
-        echo "Error: " . $sql . "<br>" . $conn->error;
-    }
-    $conn->close();
-    //end database stuff
+//    $servername = "localhost";
+//    $username = "harryptt_142user";
+//    $password = "142user";
+//    $dbname = "harryptt_CS142Final";
+//// Create connection
+//    $conn = new mysqli($servername, $username, $password, $dbname);
+//// Check connection
+//    if ($conn->connect_error) {
+//        die("Connection failed: " . $conn->connect_error);
+//    }
+//    $sql = "INSERT INTO tblContactPage (fldFirstName, fldLastName, fldEmail, fldComments)
+//VALUES ('". $firstName ."', '". $lastName ."', '". $email ."', '". $comments ."')";
+//    if ($conn->query($sql) === TRUE) {
+//        echo "New record created successfully";
+//    } else {
+//        echo "Error: " . $sql . "<br>" . $conn->error;
+//    }
+//    $conn->close();
+//    //end database stuff
 
 
     //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
