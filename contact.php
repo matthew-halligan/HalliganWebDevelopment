@@ -138,9 +138,10 @@ print PHP_EOL . '<!-- SECTION 3 Display Form -->' . PHP_EOL;
 <main class="container-fluid" id="main-contact">
     <article class="contact-intro">
         <h2>Contact Us</h2>
-        <p>TSN Industries is here to bring all your ideas visible on a website. We are willing to
-            provide with as useful information as possible. Please fill out the form below
-            and we can assure you to get back as soon as possible with all questions answered.</p>
+        <p>
+            Halligan Web Development is here to help educate and bring all of your ideas to fruition.
+            Please fill out the form below and we can assure you that we will answer all of your questions as soon as we can.
+        </p>
     </article>
     <article>
         <h6 class="hide" >Hello</h6>
