@@ -16,10 +16,13 @@ include "top.php";
         <h1>Welcome to Halligan Web Development!</h1>
         <p>Transform Your Website From A Weak Link To A Strong Asset</p>
         <a href="contact.php" class="btn"> CONTACT US </a>
+
+        <!--
         <span class="company-partners">
             <img class="company-logo black" src="https://mtfucoach.com/wp-content/uploads/2017/12/MTFU_LONGEVITY_LOGO.png" alt="MTFU longevity" >
             <img class="company-logo black" src="https://thesuperiorbarbershop.com/images/logo.png" alt="The Superior Barbershop">
-            </span>
+        </span>
+        -->
     </header>
 
 
@@ -37,7 +40,7 @@ include "top.php";
               Your Data Privacy is of the utmost importance to us.
               We take precautions to secure your data from attackers by using encryption and industry best practices.
           </p>
-          <a href="#"><h5>Learn More!</h5>
+          <a href="contact.php"><h5>Contact Us To Learn More!</h5>
           <hr></a> 
         </article>
         <article class="col-lg-4 mr-auto">
@@ -61,7 +64,7 @@ include "top.php";
               We've likely encountered your issue before and can have it solved quickly all while its business as
               usual for you.
           </p>
-          <a href="#"><h5>Learn More!</h5>
+          <a href="contact.php"><h5>Contact Us To Learn More!</h5>
           <hr></a>
         </article>
       </article>
@@ -74,10 +77,10 @@ include "top.php";
         <article class="col-lg-4 ml-auto">
             <h2>Educating You Along The Way</h2>
           <p class="lead responsive-design-p">
-              Here at Halligan Web Development, We care to educate you about our business and services in every step of the
-              process.  Your questions will be met with prompt, understandable responses.
+              Here at Halligan Web Development one of our main functions is to educate you about our services and business
+              as well as the best options to fit your business.
           </p>
-          <a href="#"><h5>Learn More!</h5>
+          <a href="contact.php"><h5>Contact Us To Learn More!</h5>
           <hr></a> 
         </article>
         <article class="col-lg-4 mr-auto">
@@ -92,7 +95,7 @@ include "top.php";
     </article>
   </section>
 
-<!-- RESPONSIVE DESIGN STARTS HERE -->
+<!-- ADAPTIVE DESIGN STARTS HERE -->
 
   <section class="mb-0" id="responsive-design">
     <h6 class="hide" >Hello</h6>
@@ -101,14 +104,20 @@ include "top.php";
       <article class="row our-offerings">
 <h6 class="hide" >Hello</h6>
         <article class="col-lg-4 ml-auto">
-          <h4>Responsive Design</h4>
-          <p  class="lead">We make sure that our websites are responsive for today's users. Did you know that in 2018 52.2% of web traffic came from mobile users?</p>
+          <h4>Adaptive Design</h4>
+          <p  class="lead">We make sure that our websites are adaptive to any size screen for today's users. Did you know that in 2018 52.2% of web traffic came from mobile users?</p>
         
-          <h4>So what if my website isn't responsive?</h4>
-          <p  class="lead">Google's search engine optimization factors in mobile responsiveness. So if you want to be # 1 over your competitors, you're gonna need to stay up to date.</p>
+          <h4>So what if my website isn't adaptive to any screen size?</h4>
+          <p  class="lead">
+              Google's search engine optimization factors in mobile adaptability. So if you want to be # 1
+              over your competitors in search engines, you're gonna need to stay up to date with an adaptive website.
+          </p>
 
           <h4>Won't this just make the page even slower?</h4>
-          <p  class="lead">With the technologies we use, our webapps work flawlessly whether it's viewed from a browser or from a native app.</p>
+          <p  class="lead">
+              With the technologies we use, our websites work flawlessly whether it's viewed from a browser on a desktop,
+              tablet or cell phone.
+          </p>
 
 
         </article>
