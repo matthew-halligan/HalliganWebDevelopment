@@ -12,7 +12,8 @@ include "top.php";
 	<article class="questions">
 		<h3>Some Frequently Asked Questions</h3>
 		<hr>
-
+        
+<!-- Q1 -->
 		<section class="card-header" id="headingOne">
 			<h2 class="mb-0">
 				<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
@@ -23,14 +24,14 @@ include "top.php";
     	<section id="collapseOne" class="collapse" aria-labelledby="headingOne">
         <h6 class="hide" >Hello</h6>
   			<p class="">
-        	    The time to create a website varies depending on several factors.  Here are Halligan Web Development
+        	    The time to create a website varies depending on several factors.  Here at Halligan Web Development
                 we use a week long development cycle which allows us to efficiently design, build and test our products before
                 launching them.  With this cycle we can ensure a high quality website for you and your customers to enjoy.
             </p>
     	</section>
 
 
-<!-- Q5 -->
+<!-- Q2 -->
         <section class="card-header" id="headingTen">
             <h2 class="mb-0">
                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
@@ -46,7 +47,7 @@ include "top.php";
             </p>
         </section>
 
-<!-- Q6 -->
+<!-- Q3 -->
     	<section class="card-header" id="headingSix">
 			<h2 class="mb-0">
 				<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
@@ -64,7 +65,7 @@ include "top.php";
 
 
 
-<!-- Q8 -->
+<!-- Q4 -->
     	<section class="card-header" id="headingEight">
 			<h2 class="mb-0">
 				<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
@@ -82,7 +83,7 @@ include "top.php";
       		</p>
     	</section>
 
-<!-- Q9 -->
+<!-- Q5 -->
     	<section class="card-header" id="headingNine">
 			<h2 class="mb-0">
 				<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
@@ -99,7 +100,7 @@ include "top.php";
             </p>
     	</section>
 
-<!-- Q10 -->
+<!-- Q6 -->
 
         <section class="card-header" id="headingFive">
             <h2 class="mb-0">
