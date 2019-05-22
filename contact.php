@@ -75,8 +75,8 @@ if (isset($_POST["btnSubmit"])) {
 
     
 $servername = "localhost";
-$username = "harryptt_142user";
-$password = "142user";
+$username = "root";
+$password = "";
 $dbname = "harryptt_CS142Final";
 
 // Create connection
