@@ -11,14 +11,16 @@ include "top.php";
   <h6 class="hide" >Hello</h6>
   <article class="col-sm-12 col-md-9 col-lg-4">
     <h6 class="hide" >Hello</h6>
-    <img class="about-us-card-image" src="https://media.licdn.com/dms/image/C4D03AQGlA2Xoxrj3BQ/profile-displayphoto-shrink_100_100/0?e=1564012800&v=beta&t=ShiCbQpb70ZKB0ZqrM2PySiFDU-11wSAiWJWU6LCkLo" alt="">
-    <article class="card">
+    <img class="about-us-card-image" src="images/headshot.jpg" alt="">
+    <article class="card" id="about">
       <h6 class="hide" >Hello</h6>
       <article class="card-body">
         <h5 class="card-title">Project Manager</h5>
-        <p class="card-text about-us-min-height">Matt is our project manager and coordinator.  He is your point of contact from beginning to end of
-            your project and works to create a seamless experience to deliver all of your desired outcomes. Connect with him
-            on LinkedIn Below!
+        <h5>Matt</h5>
+        <p class="card-text about-us-min-height">
+            I am our project manager and coordinator.  I will be your point of contact
+            from beginning to the end of your project and work to create a seamless experience to deliver all of your
+            desired outcomes. Connect with me on LinkedIn below!
         </p>
         <a href="https://www.linkedin.com/in/prasidhatimsina/" target="_blank"  class="btn btn-primary">View Linkedin</a>
       </article>
@@ -33,13 +35,13 @@ include "top.php";
       <h6 class="hide" >Hello</h6>
       <article class="card-body">
         <h5 class="card-title">Lead Designer</h5>
+          <h5>Gavin</h5>
         <p class="card-text about-us-min-height">
-            Nana Nimako is our backend developer, he works really hard using multiple
-            languages to make a funtional website. Though his is not visible on the web for users, he ensure the smoothess
-            of everything on the server. You will be lucky to have him work in your site. You can also check him linkedIn.
-            Click on the link below!
+            I am the lead designer here at Halligan Web Development.  My goal is to create a website that will exceed your
+            expectations and create designs that will show your customers exactly who you are,
+            what you offer and how they can get in contact with you.  Connect with me on Facebook!
         </p>
-        <a href="https://www.linkedin.com/in/nana-nimako/" target="_blank"  class="btn btn-primary">View Linkedin</a>
+        <a href="https://www.facebook.com" target="_blank"  class="btn btn-primary">View Facebook</a>
       </article>
     </article>
   </article>
