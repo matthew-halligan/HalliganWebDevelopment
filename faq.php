@@ -12,7 +12,7 @@ include "top.php";
 	<article class="questions">
 		<h3>Some Frequently Asked Questions</h3>
 		<hr>
-        
+
 <!-- Q1 -->
 		<section class="card-header" id="headingOne">
 			<h2 class="mb-0">

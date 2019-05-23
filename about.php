@@ -30,7 +30,7 @@ include "top.php";
 
   <article class="col-sm-12 col-md-9 col-lg-4">
     <h6 class="hide" >Hello</h6>
-  <img class="about-us-card-image" src="https://scontent.fbtv1-1.fna.fbcdn.net/v/t1.0-9/49050809_500494410457667_2814995125703278592_o.jpg?_nc_cat=101&_nc_ht=scontent.fbtv1-1.fna&oh=b4988d33b9c8bd7ab53c4daf6d2fa895&oe=5D3ACA8E" alt="">
+  <img class="about-us-card-image" src="images/gavin-headshot.JPG" alt="">
     <article class="card">
       <h6 class="hide" >Hello</h6>
       <article class="card-body">

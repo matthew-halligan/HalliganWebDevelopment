@@ -148,9 +148,10 @@ include "top.php";
             <img class="about-us-card-image-portfolio" src="https://media.licdn" alt="">
             <!--<h5 class="card-title">The Superior Barbershop</h5>-->
         </article>
+
         <article class="mask  rgba-white-strong">
               <h6 class="text-center">Project Description</h6>
-              <p class="black-text">
+              <p class="black-text:hover">
                   The Superior Barbershop was in need of a website to improve their online presence outside of Facebook and Instagram.
                   To achieve the goal of a professional online presence I created a site that brings all of the info to the forefront for anyone to find with ease.
               </p>
