@@ -17,3 +17,8 @@ nav #navbarNavDropdown ol.navbar-nav{
 nav #navbarNavDropdown li.nav-item a.nav-link:hover{
 	border-bottom: 2px solid #8165E5;
 }
+
+nav .width-limiter{
+	max-width: 50px;
+	min-height: auto;
+}

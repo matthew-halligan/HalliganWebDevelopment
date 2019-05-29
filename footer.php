@@ -32,7 +32,7 @@
                     print '<li><a href="index.php">Home</a></li>';
                     print '<li><a href="portfolio.php">Portfolio</a></li>';
                     print '<li><a href="about.php">About Us</a></li>';
-                    print '<li><a href="blog.php">Blog</a></li>';
+                    //print '<li><a href="blog.php">Blog</a></li>';
                     print '<li><a href="contact.php">Contact Us</a></li>';
                     print '<li><a href="faq.php">FAQs</a></li>';
                     

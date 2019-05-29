@@ -5,7 +5,7 @@
     if ($path_parts['dirname'] == "/cs142/thecnbswapper/require_login") {
     print '<a href="../index.php"><img src="../images/logo.png" alt=""></a>';
     }  else {
-    print '<a href="index.php"><img src="images/logo.png" alt=""></a>';
+    print '<a href="index.php"><img src="images/logo.png" alt="" class="width-limiter"></a>';
     } 
     ?>
     <button class="navbar-toggler float-right" type="button" 
@@ -84,7 +84,7 @@
 
                 /* This is where the code starts for actual nav. Upper is for CS Class */
 
-                
+
                 /*Home*/
                 print '<li class="';
                 if ($path_parts['filename'] == "index") {
@@ -113,13 +113,13 @@
                 print '</li>';
                 
                 /*Blog*/
-                print '<li class="';
-                if ($path_parts['filename'] == "blog") {
-                    print ' activePage ';
-                }
-                print ' nav-item">';
-                print '<a class = "nav-link" href="blog.php">Blog</a>';
-                print '</li>';
+//                print '<li class="';
+//                if ($path_parts['filename'] == "blog") {
+//                    print ' activePage ';
+//                }
+//                print ' nav-item">';
+//                print '<a class = "nav-link" href="blog.php">Blog</a>';
+//                print '</li>';
 
                 /*Contact US*/
                 print '<li class="';
@@ -131,13 +131,13 @@
                 print '</li>';
 
                 /*faq*/
-                //print '<li class="';
-                //if ($path_parts['filename'] == "faq") {
-                //    print ' activePage ';
-                //}
-                //print ' nav-item">';
-                //print '<a class = "nav-link" href="faq.php">FAQs</a>';
-                //print '</li>';
+                print '<li class="';
+                if ($path_parts['filename'] == "faq") {
+                    print ' activePage ';
+                }
+                print ' nav-item">';
+                print '<a class = "nav-link" href="faq.php">FAQs</a>';
+                print '</li>';
 
                 
         

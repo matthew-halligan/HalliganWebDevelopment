@@ -28,48 +28,21 @@
 }
 
 article.card.col-sm-12.view.overlay.c1, article.card.col-sm-3.view.overlay.c1{
-	background-image: url("images/cnb.jpg");
+	background-image: url("images/superior-portf.png");
 	background-size: cover;
+	min-height: 500px;
 }
 
 article.card.col-sm-12.view.overlay.c2, article.card.col-sm-3.view.overlay.c2{
-	background-image: url("images/movie.png");
+	background-image: url("images/mtfu-portf.png");
 	background-size: cover;
+	min-height: 500px;
 }
 
 article.card.col-sm-12.view.overlay.c3, article.card.col-sm-3.view.overlay.c3{
-	background-image: url("images/photographers.jpg");
+	background-image: url("images/ssm-portf.png");
 	background-size: cover;
-}
-
-article.card.col-sm-12.view.overlay.c4, article.card.col-sm-3.view.overlay.c4{
-	background-image: url("images/sos.png");
-	background-size: cover;
-}
-
-article.card.col-sm-12.view.overlay.c5, article.card.col-sm-3.view.overlay.c5{
-	background-image: url("images/eximius.png");
-	background-size: cover;
-}
-
-article.card.col-sm-12.view.overlay.c6, article.card.col-sm-3.view.overlay.c6{
-	background-image: url("images/afc.jpg");
-	background-size: cover;
-}
-
-article.card.col-sm-12.view.overlay.c7, article.card.col-sm-3.view.overlay.c7{
-	background-image: url("images/affirm.jpg");
-	background-size: cover;
-}
-
-article.card.col-sm-12.view.overlay.c8, article.card.col-sm-3.view.overlay.c8{
-	background-image: url("images/money.jpg");
-	background-size: cover;
-}
-
-article.card.col-sm-12.view.overlay.c9, article.card.col-sm-3.view.overlay.c9{
-	background-image: url("images/wherecanIwatch.png");
-	background-size: cover;
+	min-height: 500px;
 }
 
 #portfolio span .fa{
@@ -89,4 +62,5 @@ article.card.col-sm-12.view.overlay.c9, article.card.col-sm-3.view.overlay.c9{
 	padding: 12%;
 	background-color: rgba(250,250,241,0.6);
 	border-radius: 1em;
+	min-width: auto;
 }

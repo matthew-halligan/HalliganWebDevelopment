@@ -21,8 +21,12 @@
 
 #about .card-title{
     padding-top: 75px;
+    margin-bottom: auto;
 }
 
+#about card{
+    min-width: 1000px;
+}
 
 #about h1{
     color: #707070;
@@ -54,4 +58,8 @@
 #about .how-we-met-image{
     width: 40%;
     margin: auto;
+}
+
+.about-us-min-height{
+    min-height: 200px;
 }
