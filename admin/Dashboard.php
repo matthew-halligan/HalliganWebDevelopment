@@ -2,12 +2,15 @@
 THIS IS WHERE I PUT THE PASSWORD ENTRY TO GET ACCESS TO ADMIN DASHBOARD
 IF YOU ENTER THE PASSWORD CORRECTLY INTO THE FORM, IT WILL DISPLAY THE ADMIN DASHBOARD
 THE PASSWORD IS ON LINE 46 AND YOU CAN CHANGE IT TO BE WHATEVER YOU WANT -->
-<h1>Enter in the Admin Password</h1>
+<!-- <h1>Enter in the Admin Password</h1>
 <form method="post" action="">
 <input type="text" name="value">
 <input type="submit">
-</form>
-
+</form> -->
+<?php
+include('../config.php'); 
+include('security.php'); 
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,11 +24,11 @@ THE PASSWORD IS ON LINE 46 AND YOU CAN CHANGE IT TO BE WHATEVER YOU WANT -->
         <!-- Bootstrap Received from: https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
                  <!-- Bootstrap core CSS -->
-                <link href="css/bootstrap.min.css" rel="stylesheet">
+                <link href="../css/bootstrap.min.css" rel="stylesheet">
                 <!-- Material Design Bootstrap -->
-                <link href="css/mdb.min.css" rel="stylesheet">
+                <link href="../css/mdb.min.css" rel="stylesheet">
                 <!-- Your custom styles (optional) -->
-                <link href="css/style.css" rel="stylesheet">
+                <link href="../css/style.css" rel="stylesheet">
     
     
 		<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
@@ -40,41 +43,42 @@ THE PASSWORD IS ON LINE 46 AND YOU CAN CHANGE IT TO BE WHATEVER YOU WANT -->
 		<!-- Footer Icons -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<!-- End of Footer Icons -->
-        <link rel="stylesheet" href="custom.css">
+        <link rel="stylesheet" href="../custom.css">
 
 </head>
 
 <body>
+
 <?php
 //echo $_POST['value'];
 $userPassword = 1234;
-if(!empty($_POST['value'])){
+//if(!empty($_POST['value'])){
 
-if ($_POST['value'] == $userPassword) {
+//if ($_POST['value'] == $userPassword) {
        
-
+/*
 $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "harryptt_CS142Final";
 
 // Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysqli($servername, $username, $password, $dbname);*/
 // Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+if ($db->connect_error) {
+    die("Connection failed: " . $db->connect_error);
 } 
 
 $sql = "SELECT pmkContactId, fldFirstName, fldLastName, fldEmail, fldComments FROM tblContactPage WHERE status = 1";
-$records = $conn->query($sql);
+$records = $db->query($sql);
 
 $isAdmin = true;
 
 
 
-$result = $conn->query($sql);
+$result = $db->query($sql);
 
-print '<span>Welcome</span>';
+print '<span>Welcome '.$_SESSION['admin_username'].'</span> <a href="logout.php" >logout</a>';
 print '<h3>List Of People That Have Filled Out Our Form</h3>';
 print '<table>';
     print '<thead>';
@@ -115,10 +119,9 @@ if ($result->num_rows > 0) {
     echo "0 results";
 }
 
-
 $conn->close();
-    }
-}
+    //}
+//}
 ?>
 
 <!-- The Modal -->
@@ -140,9 +143,9 @@ $conn->close();
             <textarea readonly="true" class="form-control" id="FormControlmessage" rows="3"></textarea >
           </div>
 
-       <div class="form-group">
+      <div class="form-group">
         <label for="FormControlreply">Reply</label>
-        <textarea class="form-control" id="FormControlreply" rows="3"></textarea>
+        <textarea class="form-control" name="reply_message" id="FormControlreply" rows="3" required="true"></textarea>
       </div>
         
       </div>
@@ -150,15 +153,16 @@ $conn->close();
       <!-- Modal footer -->
       <div class="modal-footer">
         <input type="hidden" name="contactid" id="contactid" value=""  />
+        <input type="hidden" name="action" value="contactreply"  />
         <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-success" data-dismiss="modal">Send</button>
+        <button type="submit" class="btn btn-success">Send</button>
       </div>
      </form>
     </div>
   </div>
 </div>
 <script type="text/javascript">
-    var url = '<?php echo 'http://localhost/bhudev/adminDashboard.php'; ?>';
+    var url = <?php echo ADMIN_PATH; ?>
     $('#myModal').on('shown.bs.modal', function (e) {
       var bookId = $(e.relatedTarget).data('contact-id');
       var message = $(e.relatedTarget).data('contact-message');
@@ -171,6 +175,24 @@ $conn->close();
     $('#myModal').on('hidden.bs.modal', function () {
         $('#contactid').val("");
         $('#FormControlmessage').html("");
+    });
+
+    $(document).on('submit','#fmrreplymessage',function(){
+       
+      formdata = $(this).serialize();
+      $.ajax('ajax.php', {
+            type: 'POST',  // http method
+            data: formdata,
+            success: function (data, status, xhr) {
+                if(data == 'okay'){
+                  window.location.href = url;
+                }
+            },
+            error: function (jqXhr, textStatus, errorMessage) {
+                alert(errorMessage);
+            }
+        });
+      return false;
     });
    
    $(document).on('click',".remove-contact", function(){
