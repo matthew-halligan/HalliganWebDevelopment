@@ -1,3 +1,24 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Rkumar016 
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
+
+0
+00matthew-halligan/HalliganWebDevelopment
+ Code Issues 0 Pull requests 0 Projects 0 Wiki Security Insights
+HalliganWebDevelopment/index.php
+@matthew-halligan matthew-halligan Upload Gavin Picture
+2d4aa82 on May 24
+Executable File  229 lines (198 sloc)  9.35 KB
+  
 <?php
 include "top.php";
 ?>
@@ -100,37 +121,14 @@ include "top.php";
   <section class="mb-0" id="responsive-design">
     <h6 class="hide" >Hello</h6>
     <article class="container">
-<h6 class="hide" >Hello</h6>
-      <article class="row our-offerings">
-<h6 class="hide" >Hello</h6>
-        <article class="col-lg-4 ml-auto">
-          <h4>Adaptive Design</h4>
-          <p  class="lead">We make sure that our websites are adaptive to any size screen for today's users. Did you know that in 2018 52.2% of web traffic came from mobile users?</p>
-        
-          <h4>So what if my website isn't adaptive to any screen size?</h4>
-          <p  class="lead">
-              Google's search engine optimization factors in mobile adaptability. So if you want to be # 1
-              over your competitors in search engines, you're gonna need to stay up to date with an adaptive website.
-          </p>
+        <p class="details_data">HWD Was Started to Simplify business solutions to your web troubles. We focus on establishing our customers presence on the internet to share the benefits its provide to thier Business.
+		</p>
+		<p class="details_data">Whether you are just starting out or looking for your next move . You Should join our mailing list to  get our mail tips send directly to your inbox.</p>
+		<form class="sub">
+		<input type ="email" placeholder="enter your email"><button>Join Now</button>
+		
+		</form>
 
-          <h4>Won't this just make the page even slower?</h4>
-          <p  class="lead">
-              With the technologies we use, our websites work flawlessly whether it's viewed from a browser on a desktop,
-              tablet or cell phone.
-          </p>
-
-
-        </article>
-
-        <article class="col-lg-4 mr-auto">
-          <h6 class="hide" >Hello</h6>
-            <img class="responsive-image" src="responsiveimage.png" alt="Image to show our responsive designs in our websites">
-        </article>
-
-      </article>
-
-
-    </article>
   </section>
 
 
@@ -139,6 +137,8 @@ include "top.php";
 <section class="mb-0" id="index-portfolio">
 
 <h2 class="text-center">Portfolio</h2>
+<p class="text-center line">Halligen Web Development Delivers high value internet presence establishment services .</h2>
+<p class="text-center lines">These Portfolio items are a few examples of successful internet monetization.</h2>
 
 <section class="row">
 <h6 class="hide" >Hello</h6>
@@ -201,6 +201,7 @@ include "top.php";
     <h6 class="hide" >Hello</h6>
     <a class="btn" href="portfolio.php"> SEE MORE </a>
   </section>
+  <p class="text-center text-bottom">Learn more about what we deliver here</p>
 </section>
 
     <!-- Blog Area Starts Here -->
@@ -227,3 +228,15 @@ include "top.php";
 <?php include "footer.php"; ?>
 </body>
 </html>
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
