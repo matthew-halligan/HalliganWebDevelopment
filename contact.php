@@ -1,4 +1,5 @@
 <?php
+
 include 'top.php';
 include 'email-handler.php';
 //%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%
@@ -65,34 +66,31 @@ if (isset($_POST["btnSubmit"])) {
     // form. Note it is best to follow the same order as declared in section 1c.
     $name = htmlentities($_POST["txtName"], ENT_QUOTES, "UTF-8");
     $phone = htmlentities($_POST["txtPhone"], ENT_QUOTES, "UTF-8");
+
     $email = filter_var($_POST["txtEmail"], FILTER_SANITIZE_EMAIL);
     $comments = htmlentities($_POST["txtComments"], ENT_QUOTES, "UTF-8");
 
-
     // YOU WILL NEED TO CHANGE THESE VALUES FOR YOUR OWN DATABASE CREDENTAILS
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "Halligan-Web-Development";
-
+    $servername = "localhost";
+    $username = "matthew_root";
+    $password = "matthew";
+    $dbname = "matthew_Halligan-Web-Development";
 // Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+   $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-} 
-
-$sql = "INSERT INTO tblContactPage (fldFirstName, fldLastName, fldEmail, fldComments)
-VALUES ('". $firstName ."', '". $lastName ."', '". $email ."', '". $comments ."')";
-
-if ($conn->query($sql) === TRUE) {
-    echo "New record created successfully";
-} else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
-}
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    }
+    $sql = "INSERT INTO tblcontactpage (fldFirstName, fldPhone, fldEmail, fldComments)
+VALUES ('". $name ."', '". $phone ."', '". $email ."', '". $comments ."')";
+    if ($conn->query($sql) === TRUE) {
+//        echo "New record created successfully";
+    } else {
+//        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
     $conn->close();
-    //end database stuff
+//    //end database stuff
 
 
     //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@

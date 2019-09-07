@@ -118,7 +118,7 @@ if ($result->num_rows > 0) {
     echo "0 results";
 }
 
-$conn->close();
+$db->close();
     //}
 //}
 ?>

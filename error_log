@@ -1,0 +1,15 @@
+[19-May-2019 21:21:32 America/Chicago] PHP Warning:  include(top.php): failed to open stream: No such file or directory in /home3/matthew/public_html/test/index.php on line 2
+[19-May-2019 21:21:32 America/Chicago] PHP Warning:  include(top.php): failed to open stream: No such file or directory in /home3/matthew/public_html/test/index.php on line 2
+[19-May-2019 21:21:32 America/Chicago] PHP Warning:  include(): Failed opening 'top.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/matthew/public_html/test/index.php on line 2
+[19-May-2019 21:21:32 America/Chicago] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home3/matthew/public_html/test/index.php on line 217
+[19-May-2019 21:21:32 America/Chicago] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home3/matthew/public_html/test/index.php on line 217
+[19-May-2019 21:21:32 America/Chicago] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/matthew/public_html/test/index.php on line 217
+[19-May-2019 21:23:44 America/Chicago] PHP Warning:  include(lib/constants.php): failed to open stream: No such file or directory in /home3/matthew/public_html/test/top.php on line 100
+[19-May-2019 21:23:44 America/Chicago] PHP Warning:  include(lib/constants.php): failed to open stream: No such file or directory in /home3/matthew/public_html/test/top.php on line 100
+[19-May-2019 21:23:44 America/Chicago] PHP Warning:  include(): Failed opening 'lib/constants.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/matthew/public_html/test/top.php on line 100
+[19-May-2019 21:23:44 America/Chicago] PHP Warning:  include(LIB_PATH/Connect-With-Database.php): failed to open stream: No such file or directory in /home3/matthew/public_html/test/top.php on line 101
+[19-May-2019 21:23:44 America/Chicago] PHP Warning:  include(LIB_PATH/Connect-With-Database.php): failed to open stream: No such file or directory in /home3/matthew/public_html/test/top.php on line 101
+[19-May-2019 21:23:44 America/Chicago] PHP Warning:  include(): Failed opening 'LIB_PATH/Connect-With-Database.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/matthew/public_html/test/top.php on line 101
+[19-May-2019 21:23:44 America/Chicago] PHP Warning:  require_once(lib/security.php): failed to open stream: No such file or directory in /home3/matthew/public_html/test/top.php on line 102
+[19-May-2019 21:23:44 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'lib/security.php' (include_path='.:/opt/php56/lib/php') in /home3/matthew/public_html/test/top.php on line 102
+[14-Aug-2019 17:29:10 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'matthew_second'@'localhost' (using password: YES) in /home3/matthew/public_html/contact.php on line 80

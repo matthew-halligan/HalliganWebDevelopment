@@ -133,21 +133,6 @@ if ($db->query($sql) === TRUE) {
 <body>
 
 <?php
-//echo $_POST['value'];
-$userPassword = 1234;
-//if(!empty($_POST['value'])){
-
-//if ($_POST['value'] == $userPassword) {
-       
-
-/*$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "harryptt_CS142Final";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);*/
-// Check connection
 if ($db->connect_error) {
     die("Connection failed: " . $db->connect_error);
 } 

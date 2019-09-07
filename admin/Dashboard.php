@@ -1,21 +1,13 @@
-<!-- 
-THIS IS WHERE I PUT THE PASSWORD ENTRY TO GET ACCESS TO ADMIN DASHBOARD
-IF YOU ENTER THE PASSWORD CORRECTLY INTO THE FORM, IT WILL DISPLAY THE ADMIN DASHBOARD
-THE PASSWORD IS ON LINE 46 AND YOU CAN CHANGE IT TO BE WHATEVER YOU WANT -->
-<!-- <h1>Enter in the Admin Password</h1>
-<form method="post" action="">
-<input type="text" name="value">
-<input type="submit">
-</form> -->
 <?php
+include('security.php');
 include('../config.php'); 
-include('security.php'); 
+include('../top.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-        <title>TSN Industries</title>
+        <title>Halligan Web Development</title>
         <meta charset="utf-8">
         <meta name="author" content="Andres Salcedo, Nana Nimako, Prasidha Timsina">
         <meta name="description" content="A web desing company that has all you need.">
@@ -69,7 +61,7 @@ if ($db->connect_error) {
     die("Connection failed: " . $db->connect_error);
 } 
 
-$sql = "SELECT pmkContactId, fldFirstName, fldLastName, fldEmail, fldComments FROM tblContactPage WHERE status = 1";
+$sql = "SELECT pmkContactId, fldFirstName, fldPhone, fldEmail, fldComments FROM tblcontactpage WHERE status = 1";
 $records = $db->query($sql);
 
 $isAdmin = true;
@@ -84,7 +76,7 @@ print '<table>';
     print '<thead>';
         print'<tr>';
             print'<th scope="col">First Name</th>';
-            print'<th scope="col">Last Name</th>';
+            print'<th scope="col">Phone</th>';
             print'<th scope="col">Email</th>';
             print'<th scope="col">Question/Comments</th>';
             print'<th scope="col">Status</th>';
@@ -99,18 +91,18 @@ if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
 
         print '<tbody>';
-                    print '<tr>';
-                        print '<td>' . $row["fldFirstName"] .'</td>';
-                        print '<td>' . $row["fldLastName"] .'</td>';
-                        print '<td>' . $row["fldEmail"] .'</td>';
-                        print '<td>' . $row["fldComments"] .'</td>';
-                        //print '<td><a href="mailto:'; 
-                        //print  $row["fldEmail"] . '">Reply</a></td>';
-                        //print '<td><a href="/'; 
-                        //print  $row["fldEmail"] . '">Reply</a></td>';
-                        echo '<td><a data-contact-id="'.$row["pmkContactId"].'" data-contact-message="'.$row["fldComments"].'" href="#" data-toggle="modal" data-target="#myModal" class="open-AddBookDialog">Reply</a>';
-                        echo '<td><a data-contact-id="'.$row["pmkContactId"].'"  href="#" class="remove-contact">Ignore</a></td>';
-                    print '</tr>';
+          print '<tr>';
+              print '<td>' . $row["fldFirstName"] .'</td>';
+              print '<td>' . $row["fldPhone"] .'</td>';
+              print '<td>' . $row["fldEmail"] .'</td>';
+              print '<td>' . $row["fldComments"] .'</td>';
+              //print '<td><a href="mailto:'; 
+              //print  $row["fldEmail"] . '">Reply</a></td>';
+              //print '<td><a href="/'; 
+              //print  $row["fldEmail"] . '">Reply</a></td>';
+              echo '<td><a data-contact-id="'.$row["pmkContactId"].'" data-contact-message="'.$row["fldComments"].'" href="#" data-toggle="modal" data-target="#myModal" class="open-AddBookDialog">Reply</a>';
+              echo '<td><a data-contact-id="'.$row["pmkContactId"].'"  href="javascript:void(0);" class="remove-contact">Ignore</a></td>';
+          print '</tr>';
             
     }
     print'</tbody>'; 
@@ -119,7 +111,7 @@ if ($result->num_rows > 0) {
     echo "0 results";
 }
 
-$conn->close();
+$db->close();
     //}
 //}
 ?>
@@ -162,7 +154,7 @@ $conn->close();
   </div>
 </div>
 <script type="text/javascript">
-    var url = <?php echo ADMIN_PATH; ?>
+    var url = '<?php echo ADMIN_PATH . "/dashboard.php"; ?>';
     $('#myModal').on('shown.bs.modal', function (e) {
       var bookId = $(e.relatedTarget).data('contact-id');
       var message = $(e.relatedTarget).data('contact-message');
@@ -197,7 +189,7 @@ $conn->close();
    
    $(document).on('click',".remove-contact", function(){
         
-        var r = confirm("Are you want to delete this message");
+        var r = confirm("Do you want to delete this message");
         if (r == true) {
           txt = "Yes";
           var contactid = $(this).data('contact-id');
