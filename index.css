@@ -12,6 +12,36 @@
 #index-header a{
     
 }
+section#responsive-design {
+    padding: 47px 0;
+}
+p.details_data {
+    font-size: 19px;
+}
+form.sub {
+    margin: 0 auto;
+    display: table;
+}
+form.sub button {
+    background: #000;
+    border: #000;
+    padding: 7px 20px;
+    color: #fff;
+}
+
+form.sub input {
+    padding: 5px 17px;
+}
+p.text-center.line {
+    font-size: 17px;
+}
+p.text-center.lines {
+    font-size: 17px;
+}
+p.text-center.text-bottom {
+    font-size: 21px;
+    margin: 38px 0 0 0;
+}
 
 #index-header h1, h2{
     font-weight: 400;
