@@ -199,9 +199,10 @@ include "top.php";
 </section>
   <section id="portfolio-btn" class="text-center">
     <h6 class="hide" >Hello</h6>
+	 <p class="text-center text-bottom">Learn more about what we deliver here</p>
     <a class="btn" href="portfolio.php"> SEE MORE </a>
   </section>
-  <p class="text-center text-bottom">Learn more about what we deliver here</p>
+ 
 </section>
 
     <!-- Blog Area Starts Here -->
