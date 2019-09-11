@@ -1,12 +1,11 @@
-
 .services h1 {
-    color: #707070;
-    font-weight: 300;
-    letter-spacing: 6px;
-    margin-top: 7%;
-    margin-left: 13%;
-    border-bottom: 5px solid #707070;
-    width: 285px;
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+.services {
+    width: 1040px;
+    max-width: 100%;
+    margin: 5% auto;
 }
 .content-table a {
     color: #fff!important;
@@ -20,23 +19,32 @@ thead th {
     margin: 5% auto;
 }
 .seoEducationPackage {
+    margin: 5% auto;
+}
+.maintenancePlanDiv {
+    margin: 5% auto;
+}
+.educationPackage {
     width: 1040px;
     max-width: 100%;
     margin: 5% auto;
 }
-.seoEducationPackage h2 {
-    text-align: center;
-}
-.educationPackage {
-    margin: 3%;
+.hostingPlans {
+    width: 1040px;
+    max-width: 100%;
+    margin: 5% auto;
 }
 .webDesignAndDevelopment {
     width: 1040px;
     max-width: 100%;
     margin: 5% auto;
 }
-.hostingPlans {
-    margin: 3%;
+
+td {
+    text-align: center;
+}
+tr td {
+    font-weight: bold;
 }
 .hostingPlans h2 {
     text-align: center;
@@ -46,11 +54,22 @@ thead th {
     max-width: 100%;
     margin: 5% auto;
 }
+.maintainImage img {
+    border-radius: 2px;
+    box-shadow: 1px 1px 8px #000;
+}
+
+th {
+    text-align: center;
+}
 ul.fa-ul {
     margin: 5%;
 }
 p {
     font-size: 1.2rem;
+}
+table thead tr th a:hover {
+    border-bottom: 2px solid #8165E5;
 }
 @media (min-width: 320px) and (max-width: 480px) {
     .buildingYourPresence {
@@ -87,6 +106,14 @@ p {
     }
     th a {
         font-size: 11px;
+    }
+  }
+  @media (min-width: 320px) and (max-width: 380px) {
+    table.table.table-bordered {
+        margin-left: -18px;
+    }
+    .servicesTable table thead tr th a {
+        font-size: 10px;
     }
   }
   @media (min-width: 481px) and (max-width: 767px) {
