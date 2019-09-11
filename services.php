@@ -16,7 +16,7 @@ include "top.php";
       </tr>
     </thead>
 </table></div>
-<div class="buildingYourPresence">
+<div class="col-md-12 buildingYourPresence">
 <article>
         <h2>Building Your Presence</h2>
         <p class="buildingYourPresenceText">
@@ -58,97 +58,73 @@ include "top.php";
     </article>
 </div><hr>
 <div class="hostingPlans">
-<h2>Hosting Plans</h2>
 <section class="pricing py-5">
   <div class="container">
     <div class="row">
-      <!-- Free Tier -->
-      <div class="col-lg-3">
-        <div class="card mb-5 mb-lg-0">
-          <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Features</h5>
-            <hr>
-            <ul class="fa-ul">
-              <li>Feature 1</li>
-              <li>Feature 2</li>
-              <li>Feature 3</li>
-              <li>Feature 4</li>
-              <li>Feature 5</li>
-              <li>Feature 6</li>
-            </ul>
-          </div>
-        </div>
+      <div class="col-md-8">
+      <h2>Hosting Plans</h2>
+            <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>Features</th>
+                <th>Basic</th>
+                <th>Standard</th>
+                <th>Pro</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Feature 1</td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-times"></i></td>
+              </tr>
+              <tr>
+                <td>Feature 2</td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-times"></i></td>
+                <td><i class="fas fa-times"></i></td>
+              </tr>
+              <tr>
+                <td>Feature 3</td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+              </tr>
+              <tr>
+                <td>Feature 4</td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></td>
+                <td><i class="fas fa-times"></i></td>
+              </tr>
+            </tbody>
+          </table>
       </div>
-      <!-- Plus Tier -->
-      <div class="col-lg-3">
-        <div class="card mb-5 mb-lg-0">
-          <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Basic</h5>
-            <h6 class="card-price text-center">$9<span class="period">/month</span></h6>
-            <hr>
-            <ul class="fa-ul">
-              <li><i class="fas fa-check"></i></li>
-              <li><i class="fas fa-check"></i></li>
-              <li><i class="fas fa-check"></i></li>
-              <li><i class="fas fa-check"></i></li>
-              <li><i class="fas fa-check"></i></li>
-              <li><i class="fas fa-check"></i></li>
-            </ul>
-            <a href="#" class="btn btn-block btn-primary text-uppercase">Apply</a>
-          </div>
-        </div>
-      </div>
-      <!-- Pro Tier -->
-      <div class="col-lg-3">
-        <div class="card mb-5 mb-lg-0">
-          <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Standard</h5>
-            <h6 class="card-price text-center">$9<span class="period">/month</span></h6>
-            <hr>
-            <ul class="fa-ul">
-              <li><i class="fas fa-check"></i></li>
-              <li><i class="fas fa-check"></i></li>
-              <li><i class="fas fa-check"></i></li>
-              <li><i class="fas fa-check"></i></li>
-              <li><i class="fas fa-check"></i></li>
-              <li><i class="fas fa-check"></i></li>
-            </ul>
-            <a href="#" class="btn btn-block btn-primary text-uppercase">Apply</a>
-          </div>
-        </div>
-      </div>
-       <!-- Tier -->
-      <div class="col-lg-3">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Premium</h5>
-            <h6 class="card-price text-center">$49<span class="period">/month</span></h6>
-            <hr>
-            <ul class="fa-ul">
-              <li><i class="fas fa-check"></i></li>
-              <li><i class="fas fa-check"></i></li>
-              <li><i class="fas fa-check"></i></li>
-              <li><i class="fas fa-check"></i></li>
-              <li><i class="fas fa-check"></i></li>
-              <li><i class="fas fa-check"></i></li>
-            </ul>
-            <a href="#" class="btn btn-block btn-primary text-uppercase">Apply</a>
-          </div>
-        </div>
+      <div class="col-md-4">
+      
       </div>
     </div>
   </div>
 </section>
 </div><hr>
 <div class="maintenancePlan">
-    <article>
-        <h2>Maintenance Plan</h2>
-            <p class="maintenancePlanText">
-            Halligan Web Development has a lot to offer. Our Work is designed to be used easily by all age groups with varying
-            degrees of computer abilities with accessibility and usability being the top priority.  We ensure that we
-            will work our hardest to help you achieve your goals!
-            </p>
-    </article>
+    <div class="row">
+      <div class="col-md-6 maintenancePlanDiv">
+        <article>
+          <h2>Maintenance Plan</h2>
+              <p class="maintenancePlanText">
+              Halligan Web Development has a lot to offer. Our Work is designed to be used easily by all age groups with varying
+              degrees of computer abilities with accessibility and usability being the top priority.  We ensure that we
+              will work our hardest to help you achieve your goals!
+              </p>
+        </article>
+        </div>
+        <div class="col-md-6">
+          <div class="maintainImage">
+            <img src="images/maintain.jpg" alt="Maintenance Image" class="img-fluid">
+          </div>
+        </div>
+    </div>
 </div>
 </main>
 <?php include "footer.php"; ?>
