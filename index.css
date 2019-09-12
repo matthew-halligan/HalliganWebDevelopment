@@ -29,6 +29,15 @@ form.sub button {
     color: #fff;
     cursor: pointer;
 }
+a.big {
+    background: none!important;
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0!important;
+    height: 100%;
+}
+
 
 form.sub input {
     padding: 5px 17px;
@@ -170,7 +179,7 @@ p.text-center.text-bottom {
 	background-color: rgba(250,250,241,0.6);
 	border-radius: 1em;
 }
-   
+
 #index article.card.view.overlay{
     width: 1040px;
     max-width: 100%;
