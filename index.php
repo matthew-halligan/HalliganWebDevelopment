@@ -1,4 +1,23 @@
+Skip to content
+Search or jump to…
 
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Rkumar016 
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
+
+0
+00matthew-halligan/HalliganWebDevelopment
+ Code Issues 0 Pull requests 0 Projects 0 Wiki Security Insights
+HalliganWebDevelopment/index.php
+@matthew-halligan matthew-halligan Upload Gavin Picture
+2d4aa82 on May 24
+Executable File  229 lines (198 sloc)  9.35 KB
   
 <?php
 include "top.php";
@@ -126,11 +145,11 @@ include "top.php";
     <article class="card col-sm-12 col-md-9 col-lg-3 view overlay c1" >
         <h6 class="hide" >Hello</h6>
         <article class="card-body">
-            <img class="about-us-card-image-portfolio" src="https://media.licdn" alt="">
+           <img class="about-us-card-image-portfolio" src="https://media.licdn" alt="">
             <!--<h5 class="card-title">The Superior Barbershop</h5>-->
         </article>
 
-        <article class="mask  rgba-white-strong">
+        <a href="https://thesuperiorbarbershop.com" class="big"><article class="mask  rgba-white-strong" > 
               <h6 class="text-center">Project Description</h6>
               <p class="black-text:hover">
                   The Superior Barbershop was in need of a website to improve their online presence outside of Facebook and Instagram.
@@ -139,7 +158,7 @@ include "top.php";
               <span>
                     <a href="https://thesuperiorbarbershop.com" target="_blank" class="fa fa-link"></a>
               </span>
-        </article>
+        </article></a>
     </article>
   
     <article class="card col-sm-12 col-md-9 col-lg-3 view overlay c2">
@@ -148,7 +167,7 @@ include "top.php";
             <img class="about-us-card-image-portfolio" src="https://media.licdn" alt="">
             <!--<h5 class="card-title">MTFU Longevity</h5>-->
         </article>
-        <article class="mask  rgba-white-strong">
+        <a href="https://mtfucoach.com/shop" class="big" ><article class="mask  rgba-white-strong">
               <h6 class="text-center">Project Description</h6>
               <p class="black-text">
                   Mike Dusa of the MTFU Society came to me with a website in need of a store in order to sell his
@@ -158,7 +177,7 @@ include "top.php";
               <span>
                     <a href="https://mtfucoach.com/shop" class="fa fa-link"></a>
               </span>
-        </article>
+        </article></a>
     </article>
 
     <article class="card col-sm-12 col-md-9 col-lg-3 view overlay c3" >
@@ -167,7 +186,7 @@ include "top.php";
             <img class="about-us-card-image-portfolio" src="https://media.licdn" alt="">
             <!--<h5 class="card-title">Sunset Shopping Mall</h5>-->
         </article>
-        <article class="mask  rgba-white-strong">
+         <a href="https://www.sunsetshoppingmall.com" class="big" ><article class="mask  rgba-white-strong">
               <h6 class="text-center">Project Description</h6>
               <p class="black-text">
                   A website designed to display amenities offered by this fictional mall.
@@ -175,7 +194,7 @@ include "top.php";
               <span>
                   <a href="https://www.sunsetshoppingmall.com" class="fa fa-link"></a>
               </span>
-        </article>
+        </article></a>
     </article>
 </section>
   <section id="portfolio-btn" class="text-center">
@@ -210,3 +229,15 @@ include "top.php";
 <?php include "footer.php"; ?>
 </body>
 </html>
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
