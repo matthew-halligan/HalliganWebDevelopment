@@ -71,6 +71,22 @@ p {
 table thead tr th a:hover {
     border-bottom: 2px solid #8165E5;
 }
+.educationPackage .col-md-6.seoVideoClass
+ {
+    padding-left: 0px;
+}
+.hostingPlans .container {
+    padding-left: 0px;
+}
+.hostingPlans .col-md-8 {
+    padding-left: 0px;
+}
+.maintenancePlan .col-md-6.maintenancePlanDiv {
+    padding-left: 0px;
+}
+.col-md-12.buildingYourPresence {
+    padding-left: 0px;
+}
 @media (min-width: 320px) and (max-width: 480px) {
     .buildingYourPresence {
         text-align: center;
@@ -108,16 +124,43 @@ table thead tr th a:hover {
         font-size: 11px;
     }
   }
+  
   @media (min-width: 320px) and (max-width: 380px) {
     table.table.table-bordered {
         margin-left: -18px;
     }
     .servicesTable table thead tr th a {
-        font-size: 10px;
+        font-size: 8px;
     }
+	.educationPackage .col-md-6.seoVideoClass
+	 {
+		padding-left: 15px;
+	}
+	.maintenancePlan .col-md-6.maintenancePlanDiv {
+		padding-left: 15px;
+	}
+	.col-md-12.buildingYourPresence {
+		padding-left: 15px;
+	}	
   }
   @media (min-width: 481px) and (max-width: 767px) {
     .card-body ul.fa-ul li {
         margin-left: 0%;
     }
+		.educationPackage .col-md-6.seoVideoClass
+	 {
+		padding-left: 15px;
+	}
+	.hostingPlans .container {
+		padding-left: 15px;
+	}
+	.hostingPlans .col-md-8 {
+		padding-left: 15px;
+	}
+	.maintenancePlan .col-md-6.maintenancePlanDiv {
+		padding-left: 15px;
+	}
+	.col-md-12.buildingYourPresence {
+		padding-left: 15px;
+	}
   }
