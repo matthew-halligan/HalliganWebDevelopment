@@ -1,24 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@Rkumar016 
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-0
-00matthew-halligan/HalliganWebDevelopment
- Code Issues 0 Pull requests 0 Projects 0 Wiki Security Insights
-HalliganWebDevelopment/index.php
-@matthew-halligan matthew-halligan Upload Gavin Picture
-2d4aa82 on May 24
-Executable File  229 lines (198 sloc)  9.35 KB
-  
 <?php
 include "top.php";
 ?>
@@ -232,15 +211,3 @@ target="_blank" class="big" ><article class="mask  rgba-white-strong">
 <?php include "footer.php"; ?>
 </body>
 </html>
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
