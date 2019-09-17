@@ -100,37 +100,14 @@ include "top.php";
   <section class="mb-0" id="responsive-design">
     <h6 class="hide" >Hello</h6>
     <article class="container">
-<h6 class="hide" >Hello</h6>
-      <article class="row our-offerings">
-<h6 class="hide" >Hello</h6>
-        <article class="col-lg-4 ml-auto">
-          <h4>Adaptive Design</h4>
-          <p  class="lead">We make sure that our websites are adaptive to any size screen for today's users. Did you know that in 2018 52.2% of web traffic came from mobile users?</p>
-        
-          <h4>So what if my website isn't adaptive to any screen size?</h4>
-          <p  class="lead">
-              Google's search engine optimization factors in mobile adaptability. So if you want to be # 1
-              over your competitors in search engines, you're gonna need to stay up to date with an adaptive website.
-          </p>
+        <p class="details_data">HWD Was Started to Simplify business solutions to your web troubles. We focus on establishing our customers presence on the internet to share the benefits its provide to thier Business.
+		</p>
+		<p class="details_data">Whether you are just starting out or looking for your next move . You Should join our mailing list to  get our mail tips send directly to your inbox.</p>
+		<form class="sub">
+		<input type ="email" placeholder="enter your email"><button>Join Now</button>
+		
+		</form>
 
-          <h4>Won't this just make the page even slower?</h4>
-          <p  class="lead">
-              With the technologies we use, our websites work flawlessly whether it's viewed from a browser on a desktop,
-              tablet or cell phone.
-          </p>
-
-
-        </article>
-
-        <article class="col-lg-4 mr-auto">
-          <h6 class="hide" >Hello</h6>
-            <img class="responsive-image" src="responsiveimage.png" alt="Image to show our responsive designs in our websites">
-        </article>
-
-      </article>
-
-
-    </article>
   </section>
 
 
@@ -139,17 +116,20 @@ include "top.php";
 <section class="mb-0" id="index-portfolio">
 
 <h2 class="text-center">Portfolio</h2>
+<p class="text-center line">Halligen Web Development Delivers high value internet presence establishment services .</h2>
+<p class="text-center lines">These Portfolio items are a few examples of successful internet monetization.</h2>
 
 <section class="row">
 <h6 class="hide" >Hello</h6>
     <article class="card col-sm-12 col-md-9 col-lg-3 view overlay c1" >
         <h6 class="hide" >Hello</h6>
         <article class="card-body">
-            <img class="about-us-card-image-portfolio" src="https://media.licdn" alt="">
+           <img class="about-us-card-image-portfolio" src="https://media.licdn" alt="">
             <!--<h5 class="card-title">The Superior Barbershop</h5>-->
         </article>
 
-        <article class="mask  rgba-white-strong">
+        <a href="https://thesuperiorbarbershop.com" 
+target="_blank" class="big"><article class="mask  rgba-white-strong" > 
               <h6 class="text-center">Project Description</h6>
               <p class="black-text:hover">
                   The Superior Barbershop was in need of a website to improve their online presence outside of Facebook and Instagram.
@@ -158,7 +138,7 @@ include "top.php";
               <span>
                     <a href="https://thesuperiorbarbershop.com" target="_blank" class="fa fa-link"></a>
               </span>
-        </article>
+        </article></a>
     </article>
   
     <article class="card col-sm-12 col-md-9 col-lg-3 view overlay c2">
@@ -167,7 +147,8 @@ include "top.php";
             <img class="about-us-card-image-portfolio" src="https://media.licdn" alt="">
             <!--<h5 class="card-title">MTFU Longevity</h5>-->
         </article>
-        <article class="mask  rgba-white-strong">
+        <a href="https://mtfucoach.com/shop" target="_blank" class="big" 
+><article class="mask  rgba-white-strong">
               <h6 class="text-center">Project Description</h6>
               <p class="black-text">
                   Mike Dusa of the MTFU Society came to me with a website in need of a store in order to sell his
@@ -177,7 +158,7 @@ include "top.php";
               <span>
                     <a href="https://mtfucoach.com/shop" class="fa fa-link"></a>
               </span>
-        </article>
+        </article></a>
     </article>
 
     <article class="card col-sm-12 col-md-9 col-lg-3 view overlay c3" >
@@ -186,7 +167,8 @@ include "top.php";
             <img class="about-us-card-image-portfolio" src="https://media.licdn" alt="">
             <!--<h5 class="card-title">Sunset Shopping Mall</h5>-->
         </article>
-        <article class="mask  rgba-white-strong">
+         <a href="https://www.sunsetshoppingmall.com" 
+target="_blank" class="big" ><article class="mask  rgba-white-strong">
               <h6 class="text-center">Project Description</h6>
               <p class="black-text">
                   A website designed to display amenities offered by this fictional mall.
@@ -194,13 +176,15 @@ include "top.php";
               <span>
                   <a href="https://www.sunsetshoppingmall.com" class="fa fa-link"></a>
               </span>
-        </article>
+        </article></a>
     </article>
 </section>
   <section id="portfolio-btn" class="text-center">
     <h6 class="hide" >Hello</h6>
+	 <p class="text-center text-bottom">Learn more about what we deliver here</p>
     <a class="btn" href="portfolio.php"> SEE MORE </a>
   </section>
+ 
 </section>
 
     <!-- Blog Area Starts Here -->
