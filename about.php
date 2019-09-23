@@ -80,13 +80,13 @@ include "top.php";
   </article>
 
 	      <article class="row" id="about-us-cardss">
-  
+   <h3>Partnership not customers </h3>
 		    <article class="col-sm-12 col-md-6 col-lg-6 left">
 		       <img class="handshake-us-card-images" src="images/handshake-300x200.jpg" alt="">
 
 			</article>
 			<article class="col-sm-12 col-md-6 col-lg-6  right">
-				 <h3>Partnership not customers </h1>
+				
 			     <p>When working with HWD , we view our working relationship  as a partnership to benefit and grow both of our business . Our hope is that after working with us you will not be able to imagine wokring with anyone else. 
 
 		   
