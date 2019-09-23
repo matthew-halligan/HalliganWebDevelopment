@@ -19,6 +19,7 @@ article#about-us-cardss h3 {
     text-align: center;
     margin: 0 0 18px 0;
 }
+
 article.col-sm-12.col-md-6.col-lg-6.left img {
     float: left;
     width: 100%;
@@ -40,6 +41,7 @@ article.col-sm-12.col-md-6.col-lg-6.right {
 article#about-us-cardss p {
     font-size: 19px;
     font-weight: 300;
+    text-align: left;
 }
 img.about-us-card-images {
     width: 100%;
