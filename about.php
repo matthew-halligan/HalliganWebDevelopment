@@ -96,7 +96,7 @@ include "top.php";
 		 
 		    <article class="row" id="about-us-cardss">
   
-		       <article class="col-sm-12 col-md-12 col-lg-12 big">
+		       <article class="col-sm-12 col-md-12 col-lg-12">
 		         <h3>Dedication</h1>
 				 <p>We are dedicated to you thoughout processes and after launch of your project.  </p>
 
