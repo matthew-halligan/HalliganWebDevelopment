@@ -61,7 +61,7 @@ include "top.php";
 <section class="pricing py-5">
   <div class="container">
     <div class="row">
-      <div class="col-md-8">
+      <div class="col-md-12">
       <h2>Hosting Plans</h2>
             <table class="table table-bordered">
             <thead>
@@ -74,28 +74,64 @@ include "top.php";
             </thead>
             <tbody>
               <tr>
-                <td>Feature 1</td>
-                <td><i class="fas fa-check"></i></td>
-                <td><i class="fas fa-check"></i></td>
-                <td><i class="fas fa-times"></i></td>
+                <td>Hosting Files</td>
+                <td><i class="fa fa-check"></i></td>
+                <td><i class="fa fa-check"></i></td>
+                <td><i class="fa fa-check"></i></td>
               </tr>
               <tr>
-                <td>Feature 2</td>
-                <td><i class="fas fa-check"></i></td>
-                <td><i class="fas fa-times"></i></td>
-                <td><i class="fas fa-times"></i></td>
+                <td>Server Space</td>
+                <td></i>2GB</td>
+                <td></i>5GB</td>
+                <td></i>15GB</td>
               </tr>
               <tr>
-                <td>Feature 3</td>
-                <td><i class="fas fa-check"></i></td>
-                <td><i class="fas fa-check"></i></td>
-                <td><i class="fas fa-check"></i></td>
+                  <td>Bandwidth Allotment</td>
+                  <td>20GB/Month</td>
+                  <td>50GB/Month</td>
+                  <td>150GB/Month</i></td>
               </tr>
               <tr>
-                <td>Feature 4</td>
-                <td><i class="fas fa-check"></i></td>
-                <td><i class="fas fa-check"></td>
-                <td><i class="fas fa-times"></i></td>
+                <td>Cpanel Access</td>
+                <td><i class="fa fa-check"></i></td>
+                <td><i class="fa fa-check"></i></td>
+                <td><i class="fa fa-check"></i></td>
+              </tr>
+              <tr>
+                  <td>Domain Management</td>
+                  <td><i class="fa fa-check"></i></td>
+                  <td><i class="fa fa-check"></td>
+                  <td><i class="fa fa-check"></i></td>
+              </tr>
+              <tr>
+                <td>Performance Statistics</td>
+                <td><i class="fa fa-times"></i></td>
+                <td><i class="fa fa-check"></td>
+                <td><i class="fa fa-check"></i></td>
+              </tr>
+              <tr>
+                  <td>Domain Parking</td>
+                  <td>0</td>
+                  <td>5</td>
+                  <td>Unlimited</td>
+              </tr>
+              <tr>
+                  <td>Email Accounts</td>
+                  <td>$5 per account</td>
+                  <td>5</td>
+                  <td>15</td>
+              </tr>
+              <tr>
+                  <td>SSL Certifications</td>
+                  <td><i class="fa fa-times"></i></td>
+                  <td><i class="fa fa-check"></td>
+                  <td><i class="fa fa-check"></i></td>
+              </tr>
+              <tr>
+                  <td>Monthly Site Backups</td>
+                  <td><i class="fa fa-times"></i></td>
+                  <td><i class="fa fa-times"></td>
+                  <td><i class="fa fa-check"></i></td>
               </tr>
             </tbody>
           </table>
