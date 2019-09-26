@@ -8,6 +8,7 @@
 @import url("portfolio.css");
 @import url("blog.css");
 @import url("faq.css");
+@import url("services.css");
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,900');
 *{
     font-family: 'Lato', sans-serif;

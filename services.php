@@ -7,8 +7,8 @@ include "top.php";
 </div>
 <div class="servicesTable table-responsive">
 <table class="table content-table">
-    <thead>
-      <tr>
+    <thead id="services-table-header">
+      <tr >
         <th><a href="#" id="seo">SEO Education Package</a></th>
         <th><a href="#" id="web">Web Design & Development</a></th>
         <th><a href="#" id="hosting">Hosting Plans</a></th>

@@ -5,13 +5,14 @@
 .services {
     width: 1040px;
     max-width: 100%;
-    margin: 5% auto;
+    margin: 2% auto;
 }
 .content-table a {
     color: #fff!important;
 }
-thead th {
-    background-color: #212529 !important;
+thead th #services-table-header{
+    background-color: #212529;
+
 }
 .buildingYourPresence {
     width: 1040px;
