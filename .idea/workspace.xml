@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="119" column="23" selection-start-line="119" selection-start-column="23" selection-end-line="119" selection-end-column="23" />
+            <state relative-caret-position="1156">
+              <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/services.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="169" lean-forward="true" selection-start-line="169" selection-end-line="169" />
+            <state relative-caret-position="1734">
+              <caret line="102" column="17" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -80,6 +80,7 @@
       <find>card-ti</find>
       <find>logo</find>
       <find>.services</find>
+      <find>seo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -109,8 +110,8 @@
         <option value="$PROJECT_DIR$/contact.php" />
         <option value="$PROJECT_DIR$/custom.css" />
         <option value="$PROJECT_DIR$/admin.css" />
-        <option value="$PROJECT_DIR$/services.php" />
         <option value="$PROJECT_DIR$/services.css" />
+        <option value="$PROJECT_DIR$/services.php" />
       </list>
     </option>
   </component>
@@ -145,6 +146,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -173,12 +175,12 @@
       <workItem from="1558645724554" duration="1794000" />
       <workItem from="1558888481862" duration="81000" />
       <workItem from="1560106459777" duration="644000" />
-      <workItem from="1569461624486" duration="4367000" />
+      <workItem from="1569461624486" duration="5300000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39760000" />
+    <option name="totallyTimeSpent" value="40693000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -398,15 +400,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/services.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="119" column="23" selection-start-line="119" selection-start-column="23" selection-end-line="119" selection-end-column="23" />
+        <state relative-caret-position="1156">
+          <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/services.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="169" lean-forward="true" selection-start-line="169" selection-end-line="169" />
+        <state relative-caret-position="1734">
+          <caret line="102" column="17" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="17" />
         </state>
       </provider>
     </entry>

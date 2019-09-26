@@ -9,10 +9,10 @@ include "top.php";
 <table class="table content-table">
     <thead id="services-table-header">
       <tr >
-        <th><a href="#" id="seo">SEO Education Package</a></th>
-        <th><a href="#" id="web">Web Design & Development</a></th>
-        <th><a href="#" id="hosting">Hosting Plans</a></th>
-        <th><a href="#" id="maintain">maintenance</a></th>
+        <th><a href="#" id="seo" class="local-nav-font">SEO Education Package</a></th>
+        <th><a href="#" id="web" class="local-nav-font">Web Design & Development</a></th>
+        <th><a href="#" id="hosting" class="local-nav-font">Hosting Plans</a></th>
+        <th><a href="#" id="maintain" class="local-nav-font">maintenance</a></th>
       </tr>
     </thead>
 </table></div>
@@ -66,18 +66,18 @@ include "top.php";
             <table class="table table-bordered">
             <thead>
               <tr>
-                <th>Features</th>
-                <th>Basic</th>
-                <th>Standard</th>
-                <th>Pro</th>
+                <th class="table-header">Features</th>
+                <th class="table-header">Basic</th>
+                <th class="table-header">Standard</th>
+                <th class="table-header">Pro</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td>Hosting Files</td>
-                <td><i class="fa fa-check"></i></td>
-                <td><i class="fa fa-check"></i></td>
-                <td><i class="fa fa-check"></i></td>
+                <td><i class="fa fa-check check"></i></td>
+                <td><i class="fa fa-check check"></i></td>
+                <td><i class="fa fa-check check"></i></td>
               </tr>
               <tr>
                 <td>Server Space</td>
@@ -93,21 +93,21 @@ include "top.php";
               </tr>
               <tr>
                 <td>Cpanel Access</td>
-                <td><i class="fa fa-check"></i></td>
-                <td><i class="fa fa-check"></i></td>
-                <td><i class="fa fa-check"></i></td>
+                <td><i class="fa fa-check check"></i></td>
+                <td><i class="fa fa-check check"></i></td>
+                <td><i class="fa fa-check check"></i></td>
               </tr>
               <tr>
                   <td>Domain Management</td>
-                  <td><i class="fa fa-check"></i></td>
-                  <td><i class="fa fa-check"></td>
-                  <td><i class="fa fa-check"></i></td>
+                  <td><i class="fa fa-check check"></i></td>
+                  <td><i class="fa fa-check check"></td>
+                  <td><i class="fa fa-check check"></i></td>
               </tr>
               <tr>
                 <td>Performance Statistics</td>
-                <td><i class="fa fa-times"></i></td>
-                <td><i class="fa fa-check"></td>
-                <td><i class="fa fa-check"></i></td>
+                <td><i class="fa fa-times cross"></i></td>
+                <td><i class="fa fa-check check"></td>
+                <td><i class="fa fa-check check"></i></td>
               </tr>
               <tr>
                   <td>Domain Parking</td>
@@ -117,21 +117,21 @@ include "top.php";
               </tr>
               <tr>
                   <td>Email Accounts</td>
-                  <td>$5 per account</td>
+                  <td>$5/Account</td>
                   <td>5</td>
                   <td>15</td>
               </tr>
               <tr>
                   <td>SSL Certifications</td>
-                  <td><i class="fa fa-times"></i></td>
-                  <td><i class="fa fa-check"></td>
-                  <td><i class="fa fa-check"></i></td>
+                  <td><i class="fa fa-times cross"></i></td>
+                  <td><i class="fa fa-check check"></td>
+                  <td><i class="fa fa-check check"></i></td>
               </tr>
               <tr>
                   <td>Monthly Site Backups</td>
-                  <td><i class="fa fa-times"></i></td>
-                  <td><i class="fa fa-times"></td>
-                  <td><i class="fa fa-check"></i></td>
+                  <td><i class="fa fa-times cross"></i></td>
+                  <td><i class="fa fa-times cross"></td>
+                  <td><i class="fa fa-check check"></i></td>
               </tr>
             </tbody>
           </table>

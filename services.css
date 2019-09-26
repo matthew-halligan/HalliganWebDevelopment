@@ -14,6 +14,13 @@ thead th #services-table-header{
     background-color: #212529;
 
 }
+
+/*Local Nav*/
+.local-nav-font{
+    font-size: 1.1em;
+}
+
+
 .buildingYourPresence {
     width: 1040px;
     max-width: 100%;
@@ -62,6 +69,9 @@ tr td {
 
 th {
     text-align: center;
+}
+.table-header{
+    font-size: 1.3em;
 }
 ul.fa-ul {
     margin: 5%;
@@ -167,4 +177,12 @@ table thead tr th a:hover {
   }
 
 /* Font Awesome Icon Styling */
+.check {
+    color: green;
+    font-size: 2em;
+}
 
+.cross{
+    color: red;
+    font-size: 2em;
+}
