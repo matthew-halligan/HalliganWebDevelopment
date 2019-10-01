@@ -1,0 +1,203 @@
+.services h1 {
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+.services {
+    width: 1040px;
+    max-width: 100%;
+    margin: 2% auto;
+}
+.content-table a {
+    color: #fff!important;
+}
+thead th #services-table-header{
+    background-color: #212529;
+
+}
+main .container-fluid{
+    min-width: 320px;
+}
+
+/*Local Nav*/
+.local-nav-font{
+    font-size: 1.1em;
+    align-content: center;
+}
+
+
+.buildingYourPresence {
+    width: 1040px;
+    max-width: 100%;
+    margin: 5% auto;
+}
+.seoEducationPackage {
+    margin: 5% auto;
+}
+.maintenancePlanDiv {
+    margin: 5% auto;
+}
+.educationPackage {
+    width: 1040px;
+    max-width: 100%;
+    margin: 5% auto;
+}
+.hostingPlans {
+    width: 1040px;
+    max-width: 100%;
+    margin: 5% auto;
+}
+.webDesignAndDevelopment {
+    width: 1040px;
+    max-width: 100%;
+    margin: 5% auto;
+}
+
+td {
+    text-align: center;
+}
+tr td {
+    font-weight: bold;
+}
+.hostingPlans h2 {
+    text-align: center;
+}
+.maintenancePlan {
+    width: 1040px;
+    max-width: 100%;
+    margin: 5% auto;
+}
+.maintainImage img {
+    border-radius: 2px;
+    box-shadow: 1px 1px 8px #000;
+}
+
+th {
+    text-align: center;
+}
+.table-header{
+    font-size: 1.3em;
+}
+ul.fa-ul {
+    margin: 5%;
+}
+p {
+    font-size: 1.2rem;
+}
+table thead tr th a:hover {
+    border-bottom: 2px solid #8165E5;
+}
+.educationPackage .col-md-6.seoVideoClass
+{
+    padding-left: 0px;
+}
+.hostingPlans .container {
+    padding-left: 0px;
+}
+.hostingPlans .col-md-8 {
+    padding-left: 0px;
+}
+.maintenancePlan .col-md-6.maintenancePlanDiv {
+    padding-left: 0px;
+}
+.col-md-12.buildingYourPresence {
+    padding-left: 0px;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 534px) {
+    .buildingYourPresence {
+        text-align: center;
+        padding: 3%;
+    }
+    .seoEducationPackage {
+        text-align: center;
+        padding-top: 4%;
+    }
+    .col-md-6.seoVideoClass {
+        padding-top: 4%;
+    }
+    .webDesignAndDevelopment {
+        width: 100%;
+        text-align: center;
+        padding: 2%;
+    }
+    .hostingPlans h2 {
+        padding-top: 3%;
+    }
+    ul.fa-ul {
+        margin: 5%;
+    }
+    .maintenancePlan {
+        width: 100%;
+        text-align: center;
+        padding: 4%;
+        margin: 0;
+    }
+    .servicesTable {
+        display: none;
+    }
+    th a {
+        font-size: 11px;
+    }
+    .local-nav-font{
+        font-size: .7em;
+    }
+    table thead tr th.table-header{
+        font-size: .8em;
+    }
+    table tbody tr td.feature{
+        font-size: .8em;
+    }
+    tbody tr td.package-content{
+        font-size: .8em;
+    }
+    section.pricing.py-5{
+        margin: auto;
+    }
+    table tbody{
+        background-color: #fff;
+    }
+    table{
+        width: 100%;
+        margin: auto;
+        border-collapse: collapse;
+    }
+}
+
+
+@media (min-width: 535px) and (max-width: 767px) {
+    .card-body ul.fa-ul li {
+        margin-left: 0%;
+    }
+    .educationPackage .col-md-6.seoVideoClass
+    {
+        padding-left: 15px;
+    }
+    .hostingPlans .container {
+        padding-left: 15px;
+    }
+    .hostingPlans .col-md-8 {
+        padding-left: 15px;
+    }
+    .maintenancePlan .col-md-6.maintenancePlanDiv {
+        padding-left: 15px;
+    }
+    .col-md-12.buildingYourPresence {
+        padding-left: 15px;
+    }
+    .servicesTable {
+        font-size: .8em;
+    }
+}
+
+/* Font Awesome Icon Styling */
+.check {
+    color: green;
+    font-size: 2em;
+}
+
+.cross{
+    color: red;
+    font-size: 2em;
+}
