@@ -47,7 +47,7 @@ include "top.php";
       </article>
     </article>
   </article>
-      <!--
+
         <article class="col-sm-12 col-md-9 col-lg-4">
           <h6 class="hide" >Hello</h6>
         <img class="about-us-card-image" src="https://media.licdn.com/dms/image/C4E03AQHggcbxDWyE5w/profile-displayphoto-shrink_800_800/0?e=1562803200&v=beta&t=gPY3gy2aoQqnHsMjWuxPsRJdLtXJwjQFz9Eooya1C9Q" alt="">
@@ -70,9 +70,11 @@ include "top.php";
   <article class="row" id="about-us-cardss">
   <h6 class="hide" >Hello</h6>
   <article class="col-sm-12 col-md-12 col-lg-12">
-     <h3>Welcome to HWD</h1>
-     <p>HWD is a Web design  and development company focus on delivering high quality  service to help you establish a strong internet presence that will make a lasting impression on your customers and win their business.
-   </p>
+     <h3>Welcome to HWD</h3>
+     <p>
+         HWD is a Web design  and development company focus on delivering high quality  service to help you establish a
+         strong internet presence that will make a lasting impression on your customers and win their business.
+     </p>
 
    
    
@@ -82,12 +84,15 @@ include "top.php";
 	      <article class="row" id="about-us-cardss">
    <h3>Partnership not customers </h3>
 		    <article class="col-sm-12 col-md-6 col-lg-6 left">
-		       <img class="handshake-us-card-images" src="images/handshake-300x200.jpg" alt="">
+		       <img class="handshake-us-card-images" src="images/business-partnership.png" alt="">
 
 			</article>
 			<article class="col-sm-12 col-md-6 col-lg-6  right">
 				
-			     <p>When working with HWD , we view our working relationship  as a partnership to benefit and grow both of our business . Our hope is that after working with us you will not be able to imagine wokring with anyone else. 
+			     <p>When working with HWD , we view our working relationship  as a partnership to benefit and grow both
+                     of our business . Our hope is that after working with us you will not be able to imagine wokring
+                     with anyone else.
+                 </p>
 
 		   
 		   
@@ -97,7 +102,7 @@ include "top.php";
 		    <article class="row" id="about-us-cardss">
   
 		       <article class="col-sm-12 col-md-12 col-lg-12">
-		         <h3>Dedication</h1>
+		         <h3>Dedication</h3>
 				 <p>We are dedicated to you thoughout processes and after launch of your project.  </p>
 
 		   
@@ -110,7 +115,7 @@ include "top.php";
 	     <article class="row" id="about-us-cardss">
   
 		    <article class="col-sm-12 col-md-12 col-lg-12">
-			 <h3>Diligence </h1>
+			 <h3>Diligence </h3>
 			 <p>The success of your project is the top priority . By putting in the due diligence up front to ensure a project will deliver its  desired outcome we are able to avoid potential disaters that can cost your peace of mid , weeks of time  and thousands of dollars .</p>
 
 		   
