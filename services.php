@@ -9,10 +9,10 @@ include "top.php";
 <table class="table content-table">
     <thead id="services-table-header">
       <tr >
-        <th><a href="#" id="seo" class="local-nav-font">SEO Education Package</a></th>
-        <th><a href="#" id="web" class="local-nav-font">Web Design & Development</a></th>
-        <th><a href="#" id="hosting" class="local-nav-font">Hosting Plans</a></th>
-        <th><a href="#" id="maintain" class="local-nav-font">maintenance</a></th>
+        <th><a href="#seoPackages" id="seo" class="local-nav-font">SEO Education Package</a></th>
+        <th><a href="#webDesign" id="web" class="local-nav-font">Web Design & Development</a></th>
+        <th><a href="#hostingPlans" id="hosting" class="local-nav-font">Hosting Plans</a></th>
+        <th><a href="#maintenancePlans" id="maintain" class="local-nav-font">Maintenance</a></th>
       </tr>
     </thead>
 </table></div>
@@ -25,7 +25,7 @@ include "top.php";
             will work our hardest to help you achieve your goals!
         </p>
 </article>
-</div><hr>
+</div><hr><a name="seoPackages"></a>
 <div class="educationPackage">
     <div class="row">
         <div class="col-md-6 seoVideoClass">
@@ -43,20 +43,20 @@ include "top.php";
                     will work our hardest to help you achieve your goals!
                 </p>
             </article>
-        </div>       
+        </div>
         </div>
     </div>
-</div><hr>
+</div><hr><a name="webDesign"></a>
 <div class="webDesignAndDevelopment">
     <article>
-        <h2>Web Design & Development</h2>
+        <h2> Web Design & Development</h2>
             <p class="webDesigAndDevelopmentText">
             Halligan Web Development has a lot to offer. Our Work is designed to be used easily by all age groups with varying
             degrees of computer abilities with accessibility and usability being the top priority.  We ensure that we
             will work our hardest to help you achieve your goals!
             </p>
     </article>
-</div><hr>
+</div><hr><a name="hostingPlans"></a>
 <div class="hostingPlans">
 <section class="pricing py-5">
   <div class="container">
@@ -74,64 +74,64 @@ include "top.php";
             </thead>
             <tbody>
               <tr>
-                <td>Hosting Files</td>
-                <td><i class="fa fa-check check"></i></td>
-                <td><i class="fa fa-check check"></i></td>
-                <td><i class="fa fa-check check"></i></td>
+                <td class="feature">Hosting Files</td>
+                <td class="package-content"><i class="fa fa-check check"></i></td>
+                <td class="package-content"><i class="fa fa-check check"></i></td>
+                <td class="package-content"><i class="fa fa-check check"></i></td>
               </tr>
               <tr>
-                <td>Server Space</td>
-                <td></i>2GB</td>
-                <td></i>5GB</td>
-                <td></i>15GB</td>
+                <td class="feature">Server Space</td>
+                <td class="package-content"></i>2GB</td>
+                <td class="package-content"></i>5GB</td>
+                <td class="package-content"></i>15GB</td>
               </tr>
               <tr>
-                  <td>Bandwidth Allotment</td>
-                  <td>20GB/Month</td>
-                  <td>50GB/Month</td>
-                  <td>150GB/Month</i></td>
+                  <td class="feature">Bandwidth Allotment</td>
+                  <td class="package-content">20GB / Month</td>
+                  <td class="package-content">50GB / Month</td>
+                  <td class="package-content">150GB / Month</i></td>
               </tr>
               <tr>
-                <td>Cpanel Access</td>
-                <td><i class="fa fa-check check"></i></td>
-                <td><i class="fa fa-check check"></i></td>
-                <td><i class="fa fa-check check"></i></td>
+                <td class="feature">Cpanel Access</td>
+                <td class="package-content"><i class="fa fa-check check"></i></td>
+                <td class="package-content"><i class="fa fa-check check"></i></td>
+                <td class="package-content"><i class="fa fa-check check"></i></td>
               </tr>
               <tr>
-                  <td>Domain Management</td>
-                  <td><i class="fa fa-check check"></i></td>
-                  <td><i class="fa fa-check check"></td>
-                  <td><i class="fa fa-check check"></i></td>
+                  <td class="feature">Domain Management</td>
+                  <td class="package-content"><i class="fa fa-check check"></i></td>
+                  <td class="package-content"><i class="fa fa-check check"></td>
+                  <td class="package-content"><i class="fa fa-check check"></i></td>
               </tr>
               <tr>
-                <td>Performance Statistics</td>
-                <td><i class="fa fa-times cross"></i></td>
-                <td><i class="fa fa-check check"></td>
-                <td><i class="fa fa-check check"></i></td>
+                <td class="feature">Performance Statistics</td>
+                <td class="package-content"><i class="fa fa-times cross"></i></td>
+                <td class="package-content"><i class="fa fa-check check"></td>
+                <td class="package-content"><i class="fa fa-check check"></i></td>
               </tr>
               <tr>
-                  <td>Domain Parking</td>
-                  <td>0</td>
-                  <td>5</td>
-                  <td>Unlimited</td>
+                  <td class="feature">Domain Parking</td>
+                  <td class="package-content">0</td>
+                  <td class="package-content">5</td>
+                  <td class="package-content">Unlimited</td>
               </tr>
               <tr>
-                  <td>Email Accounts</td>
-                  <td>$5/Account</td>
-                  <td>5</td>
-                  <td>15</td>
+                  <td class="feature">Email Accounts</td>
+                  <td class="package-content">$5 / Account</td>
+                  <td class="package-content">5</td>
+                  <td class="package-content">15</td>
               </tr>
               <tr>
-                  <td>SSL Certifications</td>
-                  <td><i class="fa fa-times cross"></i></td>
-                  <td><i class="fa fa-check check"></td>
-                  <td><i class="fa fa-check check"></i></td>
+                  <td class="feature">SSL Certifications</td>
+                  <td class="package-content"><i class="fa fa-times cross"></i></td>
+                  <td class="package-content"><i class="fa fa-check check"></td>
+                  <td class="package-content"><i class="fa fa-check check"></i></td>
               </tr>
               <tr>
-                  <td>Monthly Site Backups</td>
-                  <td><i class="fa fa-times cross"></i></td>
-                  <td><i class="fa fa-times cross"></td>
-                  <td><i class="fa fa-check check"></i></td>
+                  <td class="feature">Monthly Site Backups</td>
+                  <td class="package-content"><i class="fa fa-times cross"></i></td>
+                  <td class="package-content"><i class="fa fa-times cross"></td>
+                  <td class="package-content"><i class="fa fa-check check"></i></td>
               </tr>
             </tbody>
           </table>
@@ -142,7 +142,7 @@ include "top.php";
     </div>
   </div>
 </section>
-</div><hr>
+</div><hr><a name="maintenancePlans"></a>
 <div class="maintenancePlan">
     <div class="row">
       <div class="col-md-6 maintenancePlanDiv">
