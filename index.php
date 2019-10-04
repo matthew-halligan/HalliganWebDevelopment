@@ -31,14 +31,14 @@ include "top.php";
   <section class="mb-0" id="what-we-do">
     <h6 class="hide" >Hello</h6>
     <article class="container">
-      <h2 class="text-center">Why Us?</h2>
+      <h2 class="text-center">We Have Your Solution</h2>
       <article class="row our-offerings">
         <h6 class="hide" >Hello</h6>
         <article class="col-lg-4 ml-auto">
-          <h2>We're Secure!</h2>
+          <h2>Establishing Web Presence</h2>
           <p class="lead responsive-design-p">
-              Your Data Privacy is of the utmost importance to us.
-              We take precautions to secure your data from attackers by using encryption and industry best practices.
+              Work with us to learn what it means to establish an Internet presence and the very successful methods that
+              others are using to give their business an edge over their competition.
           </p>
           <a href="contact.php"><h5>Contact Us To Learn More!</h5>
           <hr></a> 
@@ -58,13 +58,14 @@ include "top.php";
             <img class="what-we-do-image" src="images/server.png" alt="Image of a hard drive">
         </article>
         <article class="col-lg-4 mr-auto">
-            <h2>Fully Managed Web Hosting</h2>
+            <h2>Search Engine Optimization Education</h2>
           <p class="lead responsive-design-p">
-              Spending hours learning why your website is not working is a great waste of your time.
-              We've likely encountered your issue before and can have it solved quickly all while its business as
-              usual for you.
+              Halligan Web Development employs ethical search engine optimization techniques to help your business be
+              the first to appear in front of your customers eyes.  Did you know that the first link on a google search
+              gets 7x as many clicks as the second link on the page?  Learn how to make this work for you!
+
           </p>
-          <a href="contact.php"><h5>Contact Us To Learn More!</h5>
+          <a href="services.php#"><h5>Watch To Learn More!</h5>
           <hr></a>
         </article>
       </article>
