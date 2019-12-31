@@ -45,6 +45,18 @@ article.card.col-sm-12.view.overlay.c3, article.card.col-sm-3.view.overlay.c3{
 	min-height: 500px;
 }
 
+article.card.col-sm-12.view.overlay.c4, article.card.col-sm-3.view.overlay.c4{
+	background-image: url("images/ssm-portf.png");
+	background-size: cover;
+	min-height: 500px;
+}
+article.card.col-sm-12.view.overlay.cs, article.card.col-sm-3.view.overlay.cs{
+	background-image: url("images/coming-soon.jpg");
+	background-size: cover;
+	min-height: 500px;
+
+}
+
 #portfolio span .fa{
 	font-size: 1.5em;
 	background-color: black;

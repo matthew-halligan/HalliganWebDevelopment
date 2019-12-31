@@ -20,14 +20,14 @@ include "top.php";
                 <img class="about-us-card-image-portfolio" src="https://media.licdn" alt="">
                 <!--<h5 class="card-title">The Superior Barbershop</h5>-->
             </article>
-           <a href="https://thesuperiorbarbershop.com" class="big"><article class="mask  rgba-white-strong">
+           <a href="superiorbrbs/index.php" class="big" target="_blank"><article class="mask  rgba-white-strong">
                 <h6 class="text-center">Project Description</h6>
                 <p class="black-text">
                     The Superior Barbershop was in need of a website to improve their online presence outside of Facebook and Instagram.
                     To achieve the goal of a professional online presence I created a site that brings all of the info to the forefront for anyone to find with ease.
                 </p>
                 <span class="card-body">
-                    <a href="https://thesuperiorbarbershop.com" target="_blank" class="fa fa-link"></a>
+                    <a href="" target="_blank" class="fa fa-link"></a>
                 </span>
             </article></a>
         </article>
@@ -38,7 +38,7 @@ include "top.php";
                 <img class="about-us-card-image-portfolio" src="https://media.licdn" alt="">
                 <!--<h5 class="card-title">MTFU Longevity</h5>-->
             </article>
-            <a href="https://mtfucoach.com/shop" class="big" ><article class="mask  rgba-white-strong">
+            <a href="https://mtfucoach.com/shop" class="big" target="_blank"><article class="mask  rgba-white-strong">
                 <h6 class="text-center">Project Description</h6>
                 <p class="black-text">
                     Mike Dusa of the MTFU Society came to me with a website in need of a store in order to sell his
@@ -57,19 +57,77 @@ include "top.php";
                 <img class="about-us-card-image-portfolio" src="https://media.licdn" alt="">
                 <!--<h5 class="card-title">Sunset Shopping Mall</h5>-->
             </article>
-            <a href="https://www.sunsetshoppingmall.com" class="big" > <article class="mask  rgba-white-strong">
+            <a href="https://www.wedgwoodlady.com" class="big" target="_blank"> <article class="mask  rgba-white-strong">
                 <h6 class="text-center">Project Description</h6>
                 <p class="black-text">
-                    A website designed to display amenities offered by this fictional mall.
+                    Ellen Rubell, owner at Wedgwood Lady, was in need of a solution to expand her online presence selling beautiful,
+                    high value Wedgwood China.  Along with her eBay store she now fields many inquires daily from customers interested in
+                    buying and selling china through her website.
                 </p>
                 <span>
-                  <a href="https://www.sunsetshoppingmall.com" class="fa fa-link"></a>
+                  <a href="https://www.wedgwoodlady.com" class="fa fa-link"></a>
               </span>
             </article></a>
         </article>
+
+
     </section>
 
+    <section class="row">
+        <article class="card col-sm-12 col-md-9 col-lg-3 view overlay c4" >
+            <h6 class="hide" >Hello</h6>
+            <article class="card-body">
+                <img class="about-us-card-image-portfolio" src="https://media.licdn" alt="">
+                <!--<h5 class="card-title">Sunset Shopping Mall</h5>-->
+            </article>
+            <a href="https://www.sunsetshoppingmall.com" class="big" target="_blank"> <article class="mask  rgba-white-strong">
+                    <h6 class="text-center">Project Description</h6>
+                    <p class="black-text">
 
+                        A website designed to display amenities offered by this fictional mall.
+                    </p>
+                    <span>
+                      <a href="https://www.sunsetshoppingmall.com" class="fa fa-link"></a>
+                  </span>
+                </article></a>
+        </article>
+
+        <article class="card col-sm-12 col-md-9 col-lg-3 view overlay cs">
+            <h6 class="hide" >Hello</h6>
+            <article class="card-body">
+                <img class="about-us-card-image-portfolio" src="https://media.licdn" alt="">
+                <!--<h5 class="card-title">MTFU Longevity</h5>-->
+            </article>
+            <a href="#" class="big" ><article class="mask  rgba-white-strong">
+                    <h6 class="text-center">Project Description</h6>
+                    <p class="black-text">
+                        <b>Project Coming Soon!</b>
+                        <p>Be sure to check back for future updates</p>
+                    </p>
+                    <span>
+                    <a href="#" class="fa fa-link"></a>
+              </span>
+                </article></a>
+        </article>
+
+        <article class="card col-sm-12 col-md-9 col-lg-3 view overlay cs" >
+            <h6 class="hide" >Hello</h6>
+            <article class="card-body">
+                <img class="about-us-card-image-portfolio" src="https://media.licdn" alt="">
+                <!--<h5 class="card-title">Sunset Shopping Mall</h5>-->
+            </article>
+            <a href="#" class="big" > <article class="mask  rgba-white-strong">
+                    <h6 class="text-center">Project Description</h6>
+                    <p class="black-text">
+                        <b>Project Coming Soon!</b>
+                        <p>Be sure to check back for future updates</p>
+                    </p>
+                    <span>
+                  <a href="#" class="fa fa-link"></a>
+              </span>
+                </article></a>
+        </article>
+    </section>
     <!--
     <section class="row">
         <h6 class="hide" >Hello</h6>
