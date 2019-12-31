@@ -136,6 +136,42 @@ VALUES ('". $name ."', '". $phone ."', '". $email ."', '". $comments ."')";
 print PHP_EOL . '<!-- SECTION 3 Display Form -->' . PHP_EOL;
 //
 ?>
+
+
+
+<?php
+if (isset($_POST["btnSubmit"])){
+    // Checking For Blank Fields..
+    if($_POST["txtName"]==""||$_POST["txtEmail"]==""||$_POST["txtPhone"]==""||$_POST["txtComments"]==""){
+        echo "Fill All Fields..";
+    }else{
+        // Check if the "Sender's Email" input field is filled out
+        $email=$_POST['txtEmail'];
+        // Sanitize E-mail Address
+        $email =filter_var($email, FILTER_SANITIZE_EMAIL);
+        // Validate E-mail Address
+        $email= filter_var($email, FILTER_VALIDATE_EMAIL);
+        if (!$email){
+            echo "Invalid Sender's Email";
+        }
+        else{
+            $subject = "New Website Contact";
+            $message = "Name: " . $_POST["txtName"] . "\n"
+                ."Email: " . $_POST["txtEmail"] . "\n"
+                ."Phone: " . $_POST["txtPhone"] . "\n"
+                ."Comments: " . $_POST['txtComments'];
+            $headers = 'From: '. $email . "\n"; // Sender's Email
+            $headers .= 'Cc: '. $email . "\n"; // Carbon copy to Sender
+
+            // Message lines should not exceed 70 characters (PHP rule), so wrap it
+            $message = wordwrap($message, 70);
+            // Send Mail By PHP Mail Function
+            mail("matt@halliganwebdevelopment.com", $subject, $message, $headers);
+            echo "Your mail has been sent successfuly ! Thank you for your feedback";
+        }
+    }
+}
+?>
 <main class="container-fluid" id="main-contact">
     <article class="contact-intro">
         <h2>Contact Us</h2>
