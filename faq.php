@@ -13,25 +13,61 @@ include "top.php";
 		<h3>Some Frequently Asked Questions</h3>
 		<hr>
 
-<!-- Q1 -->
-		<section class="card-header" id="headingOne">
-			<h2 class="mb-0">
-				<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-  					How long does creating a website take?
-				</button>
-			</h2>
-		</section>
-    	<section id="collapseOne" class="collapse" aria-labelledby="headingOne">
-        <h6 class="hide" >Hello</h6>
-  			<p class="">
-        	    The time to create a website varies depending on several factors.  Here at Halligan Web Development
+        <!-- Q1 -->
+        <section class="card-header" id="headingOne">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    What does it take to put together an Ad campaign on Google?
+                </button>
+            </h2>
+        </section>
+        <section id="collapseOne" class="collapse" aria-labelledby="headingOne">
+            <h6 class="hide" >Hello</h6>
+            <p class="">
+                An Ad campaign has 3 main components, The keywords, The audience, and budget.  We work with you to
+                research your specific niche to provide the highest value traffic to your landing page leading to
+                higher value conversions for your business.
+
+            </p>
+        </section>
+
+
+        <!-- Q2 -->
+        <section class="card-header" id="headingTen">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                    I don’t have a huge budget to dedicate towards ads right now but I don't want to be left out.
+                </button>
+            </h2>
+        </section>
+        <section id="collapseTen" class="collapse" aria-labelledby="headingTen">
+            <h6 class="hide" >Hello</h6>
+            <p class="">
+                We work with you to deliver the highest quality traffic to your landing page so that almost any budget
+                will have the potential to see great returns.
+
+            </p>
+        </section>
+
+        <!-- Q3 -->
+        <section class="card-header" id="headingOne">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    How long does creating a website take?
+                </button>
+            </h2>
+        </section>
+        <section id="collapseOne" class="collapse" aria-labelledby="headingOne">
+            <h6 class="hide" >Hello</h6>
+            <p class="">
+                The time to create a website varies depending on several factors.  Here at Halligan Web Development
                 we use a week long development cycle which allows us to efficiently design, build and test our products before
                 launching them.  With this cycle we can ensure a high quality website for you and your customers to enjoy.
             </p>
-    	</section>
+        </section>
 
 
-<!-- Q2 -->
+        <!-- Q4 -->
         <section class="card-header" id="headingTen">
             <h2 class="mb-0">
                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
@@ -47,7 +83,7 @@ include "top.php";
             </p>
         </section>
 
-<!-- Q3 -->
+<!-- Q5 -->
     	<section class="card-header" id="headingSix">
 			<h2 class="mb-0">
 				<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
@@ -65,7 +101,7 @@ include "top.php";
 
 
 
-<!-- Q4 -->
+<!-- Q6 -->
     	<section class="card-header" id="headingEight">
 			<h2 class="mb-0">
 				<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
@@ -83,7 +119,7 @@ include "top.php";
       		</p>
     	</section>
 
-<!-- Q5 -->
+<!-- Q7 -->
     	<section class="card-header" id="headingNine">
 			<h2 class="mb-0">
 				<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
@@ -100,7 +136,7 @@ include "top.php";
             </p>
     	</section>
 
-<!-- Q6 -->
+<!-- Q8 -->
 
         <section class="card-header" id="headingFive">
             <h2 class="mb-0">
