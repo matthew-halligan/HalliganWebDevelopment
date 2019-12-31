@@ -69,6 +69,7 @@ tr td {
 .maintainImage img {
     border-radius: 2px;
     box-shadow: 1px 1px 8px #000;
+    margin-top: 25%;
 }
 
 th {
@@ -89,6 +90,7 @@ table thead tr th a:hover {
 .educationPackage .col-md-6.seoVideoClass
 {
     padding-left: 0px;
+    margin-top: 10%;
 }
 .hostingPlans .container {
     padding-left: 0px;
@@ -189,6 +191,13 @@ table thead tr th a:hover {
     .servicesTable {
         font-size: .8em;
     }
+    .maintainImage img{
+        margin-top: 0;
+    }
+    .col-md-6.seoVideoClass{
+        margin-top: 0;
+    }
+
 }
 
 /* Font Awesome Icon Styling */
