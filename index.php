@@ -45,7 +45,7 @@ include "top.php";
                 </article>
                 <article class="col-lg-4 mr-auto">
                     <h6 class="hide" >Hello</h6>
-                    <img class="what-we-do-image" src="images/hard-disk.png" alt="Image of a hard drive">
+                    <img class="what-we-do-image" src="images/Online_Presence.png" alt="Image of a hard drive">
                 </article>
             </article>
             <!-- I got the image above from the link below, it's copyright free -->
@@ -55,7 +55,7 @@ include "top.php";
                 <h6 class="hide" >Hello</h6>
                 <article class="col-lg-4 ml-auto">
                     <h6 class="hide" >Hello</h6>
-                    <img class="what-we-do-image" src="images/server.png" alt="Image of a hard drive">
+                    <img class="what-we-do-image" src="images/adwords-icon.png" alt="Image of a hard drive">
                 </article>
                 <article class="col-lg-4 mr-auto">
                     <h2>Search Engine Optimization Education</h2>
@@ -88,7 +88,7 @@ include "top.php";
                 </article>
                 <article class="col-lg-4 mr-auto">
                     <h6 class="hide" >Hello</h6>
-                    <img class="what-we-do-image" src="images/atom.png" alt="image of data analytics">
+                    <img class="what-we-do-image" src="images/web-dev-icon.png" alt="image of data analytics">
                 </article>
             </article>
             <!-- Got the image from the link below, it's copyright free
