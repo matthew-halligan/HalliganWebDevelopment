@@ -94,6 +94,17 @@
                 print '<a class = "nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>';
                 print '</li>';
 
+
+                /*Services*/
+                print '<li class="';
+                if ($path_parts['filename'] == "services") {
+                    print ' activePage ';
+                }
+                print ' nav-item">';
+                print '<a class = "nav-link" href="services.php">Services <span class="sr-only">(current)</span></a>';
+                print '</li>';
+
+
                 /*Portfolio*/
                 print '<li class="';
                 if ($path_parts['filename'] == "portfolio") {
@@ -102,7 +113,28 @@
                 print ' nav-item">';
                 print '<a class = "nav-link" href="portfolio.php">Portfolio</a>';
                 print '</li>';
-                
+
+
+                /*Contact US*/
+                print '<li class="';
+                if ($path_parts['filename'] == "contact") {
+                    print ' activePage ';
+                }
+                print ' nav-item">';
+                print '<a class = "nav-link" href="contact.php">Contact Us</a>';
+                print '</li>';
+
+
+                /*faq*/
+                print '<li class="';
+                if ($path_parts['filename'] == "faq") {
+                    print ' activePage ';
+                }
+                print ' nav-item">';
+                print '<a class = "nav-link" href="faq.php">FAQs</a>';
+                print '</li>';
+
+
                 /*About US*/
                 print '<li class="';
                 if ($path_parts['filename'] == "about") {
@@ -121,23 +153,7 @@
 //                print '<a class = "nav-link" href="blog.php">Blog</a>';
 //                print '</li>';
 
-                /*Contact US*/
-                print '<li class="';
-                if ($path_parts['filename'] == "contact") {
-                    print ' activePage ';
-                }
-                print ' nav-item">';
-                print '<a class = "nav-link" href="contact.php">Contact Us</a>';
-                print '</li>';
 
-                /*faq*/
-                print '<li class="';
-                if ($path_parts['filename'] == "faq") {
-                    print ' activePage ';
-                }
-                print ' nav-item">';
-                print '<a class = "nav-link" href="faq.php">FAQs</a>';
-                print '</li>';
 
                 
         
