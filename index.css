@@ -1,8 +1,8 @@
 #index-header{
     text-align: center;
     height: 400px;
-    margin-top: 100px;
-    margin-bottom: 150px;
+    margin-top: 75px;
+    margin-bottom: 50px;
 }
 #index-header img{
     height: 250px;
@@ -56,6 +56,8 @@ p.text-center.text-bottom {
 #index-header h1, h2{
     font-weight: 400;
 }
+
+
 #index-header p{
     font-weight: 400;
     color: #8F8F90;
@@ -89,8 +91,19 @@ p.text-center.text-bottom {
 
 
 .what-we-do-image{
-    height: 175px;
+    max-height: 300px;
     max-width: 100%;
+
+}
+.right-side-image{
+    max-height: 300px;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.adword-image{
+    max-height: 250px;
+    margin-top: 25%;
 }
 
 #what-we-do{
@@ -102,6 +115,9 @@ p.text-center.text-bottom {
 #what-we-do h2{
     font-weight: 900;
 }
+#what-we-do h1{
+    font-weight: 900;
+}
 #what-we-do p{
     color: #575757;
 }
@@ -110,8 +126,8 @@ p.text-center.text-bottom {
 }
 
 .our-offerings{
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: auto;
+    padding-bottom: auto;
 }
 
 #main-index a, #main-index a:hover{
@@ -194,12 +210,25 @@ p.text-center.text-bottom {
 }
 
 @media only screen and (max-width: 600px) {
-
+    #index-header{
+        text-align: center;
+        height: 400px;
+        margin-top: 75px;
+        margin-bottom: 100px;
+    }
     .responsive-image{
         height: 250px;
     }
 
     .company-partners{
         margin-top: 20px;
+    }
+    .right-side-image{
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .adword-image{
+        margin-top: 0;
     }
 }

@@ -4,7 +4,7 @@ include "top.php";
 <main class="container-fluid" id="main-index">
     <head>
         <title>
-            Halligan Web Development - Transform Your Website To A Strong Asset
+            Halligan Web Development - Transform Your Online Presence To A Strong Asset
         </title>
         <meta name="description" content="Halligan Web Development specializing in transforming your website from a weak link in your business to a strong asset.">
         <meta name="keywords" content="Web Development,Web Hosting,developer,Wallingford Web Development,Web Development Wallingford CT,local">
@@ -14,7 +14,7 @@ include "top.php";
     <header id="index-header">
         <img class="header-image" src="images/laptopimagedark.png" alt="">
         <h1>Welcome to Halligan Web Development!</h1>
-        <p>Transform Your Website From A Weak Link To A Strong Asset</p>
+        <p>Transform Your Online Presence From A Weak Link To A Strong Asset</p>
         <a href="contact.php" class="btn"> CONTACT US </a>
 
         <!--
@@ -26,12 +26,12 @@ include "top.php";
     </header>
 
 
-    <!-- WHAT WE DO STARTS HERE -->
+    <!-- Solutions STARTS HERE -->
 
     <section class="mb-0" id="what-we-do">
         <h6 class="hide" >Hello</h6>
         <article class="container">
-            <h2 class="text-center">Solutions</h2>
+            <h1 class="text-center">Solutions</h1>
             <article class="row our-offerings">
                 <h6 class="hide" >Hello</h6>
                 <article class="col-lg-4 ml-auto">
@@ -40,7 +40,7 @@ include "top.php";
                         Work with us to learn what it means to establish an Internet presence and the very successful methods that
                         others are using to give their business an edge over their competition.
                     </p>
-                    <a href="contact.php"><h5>Contact Us To Learn More!</h5>
+                    <a href="contact.php"><h5>Contact Us To Learn More</h5>
                         <hr></a>
                 </article>
                 <article class="col-lg-4 mr-auto">
@@ -55,17 +55,16 @@ include "top.php";
                 <h6 class="hide" >Hello</h6>
                 <article class="col-lg-4 ml-auto">
                     <h6 class="hide" >Hello</h6>
-                    <img class="what-we-do-image" src="images/adwords-icon.png" alt="Image of a hard drive">
+                    <img class="what-we-do-image adword-image" src="images/adwords-icon.png" alt="Image of a hard drive">
                 </article>
                 <article class="col-lg-4 mr-auto">
-                    <h2>Search Engine Optimization Education</h2>
+                    <h2>Search Engine Marketing</h2>
                     <p class="lead responsive-design-p">
-                        Halligan Web Development employs ethical search engine optimization techniques to help your business be
-                        the first to appear in front of your customers eyes.  Did you know that the first link on a google search
-                        gets 7x as many clicks as the second link on the page?  Learn how to make this work for you!
-
+                        We employ market research to show your business to the correct customers at the exact moment they
+                        are looking for your product or services.  Incorporating SEM to your plan has a huge potential
+                        upside with minimal downside due to our highly flexible techniques.
                     </p>
-                    <a href="services.php#"><h5>Watch To Learn More!</h5>
+                    <a href="services.php#"><h5>Click Here To Learn More</h5>
                         <hr></a>
                 </article>
             </article>
@@ -83,12 +82,12 @@ include "top.php";
                         for e-commerce that generates revenue directly or another ad space for your brick and mortar
                         business there is no downside to posting your website on the Internet.
                     </p>
-                    <a href="contact.php"><h5>Contact Us To Learn More!</h5>
+                    <a href="contact.php"><h5>Contact Us To Learn More</h5>
                         <hr></a>
                 </article>
                 <article class="col-lg-4 mr-auto">
                     <h6 class="hide" >Hello</h6>
-                    <img class="what-we-do-image" src="images/web-dev-icon.png" alt="image of data analytics">
+                    <img class="what-we-do-image right-side-image" src="images/web-dev-icon.png" alt="image of data analytics">
                 </article>
             </article>
             <!-- Got the image from the link below, it's copyright free
@@ -108,7 +107,7 @@ include "top.php";
 
 
                     </p>
-                    <a href="services.php#hostingPlans"><h5>Click to Learn More</h5>
+                    <a href="services.php#hostingPlans"><h5>Click Here To Learn More</h5>
                         <hr></a>
                 </article>
             </article>
