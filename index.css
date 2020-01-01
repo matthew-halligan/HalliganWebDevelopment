@@ -10,7 +10,7 @@
 }
 
 #index-header a{
-    
+    margin: auto;
 }
 section#responsive-design {
     padding: 47px 0;
@@ -97,13 +97,13 @@ p.text-center.text-bottom {
 }
 .right-side-image{
     max-height: 300px;
-    margin-top: 5%;
+    margin-top: 0%;
     margin-left: 10%;
 }
 
 .adword-image{
     max-height: 250px;
-    margin-top: 25%;
+    margin-top: 0%;
 }
 
 #what-we-do{

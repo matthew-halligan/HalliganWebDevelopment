@@ -1,5 +1,6 @@
 <?php
 include "top.php";
+include "mail-list-addition.php";
 ?>
 <main class="container-fluid" id="main-index">
     <head>
@@ -34,16 +35,19 @@ include "top.php";
             <h1 class="text-center">Solutions</h1>
             <article class="row our-offerings">
                 <h6 class="hide" >Hello</h6>
-                <article class="col-lg-4 ml-auto">
+                <article class="col-lg-6 ml-auto">
                     <h2>Establishing Web Presence</h2>
                     <p class="lead responsive-design-p">
                         Work with us to learn what it means to establish an Internet presence and the very successful methods that
                         others are using to give their business an edge over their competition.
                     </p>
+                    <p>
+                        Never before has it been this simple to gain traction with an online presence.
+                    </p>
                     <a href="contact.php"><h5>Contact Us To Learn More</h5>
                         <hr></a>
                 </article>
-                <article class="col-lg-4 mr-auto">
+                <article class="col-lg-6 mr-auto">
                     <h6 class="hide" >Hello</h6>
                     <img class="what-we-do-image" src="images/Online_Presence.png" alt="Image of a hard drive">
                 </article>
@@ -53,11 +57,11 @@ include "top.php";
 
             <article class="row our-offerings">
                 <h6 class="hide" >Hello</h6>
-                <article class="col-lg-4 ml-auto">
+                <article class="col-lg-6 ml-auto">
                     <h6 class="hide" >Hello</h6>
                     <img class="what-we-do-image adword-image" src="images/adwords-icon.png" alt="Image of a hard drive">
                 </article>
-                <article class="col-lg-4 mr-auto">
+                <article class="col-lg-6 mr-auto">
                     <h2>Search Engine Marketing</h2>
                     <p class="lead responsive-design-p">
                         We employ market research to show your business to the correct customers at the exact moment they
@@ -74,7 +78,7 @@ include "top.php";
 
             <article class="row our-offerings">
                 <h6 class="hide" >Hello</h6>
-                <article class="col-lg-4 ml-auto">
+                <article class="col-lg-6 ml-auto">
                     <h2>Web Development</h2>
                     <p class="lead responsive-design-p">
                         Your customers are keen on the usability and look of your site.  Halligan Web Development delivers
@@ -85,7 +89,7 @@ include "top.php";
                     <a href="contact.php"><h5>Contact Us To Learn More</h5>
                         <hr></a>
                 </article>
-                <article class="col-lg-4 mr-auto">
+                <article class="col-lg-6 mr-auto">
                     <h6 class="hide" >Hello</h6>
                     <img class="what-we-do-image right-side-image" src="images/web-dev-icon.png" alt="image of data analytics">
                 </article>
@@ -95,11 +99,11 @@ include "top.php";
 
             <article class="row our-offerings">
                 <h6 class="hide" >Hello</h6>
-                <article class="col-lg-4 ml-auto">
+                <article class="col-lg-6 ml-auto">
                     <h6 class="hide" >Hello</h6>
                     <img class="what-we-do-image" src="images/server.png" alt="Image of a hard drive">
                 </article>
-                <article class="col-lg-4 mr-auto">
+                <article class="col-lg-6 mr-auto">
                     <h2>Hosting</h2>
                     <p class="lead responsive-design-p">
                         Stop wasting time with other hosting companies and their ridiculous hoops and downtime.
@@ -118,16 +122,27 @@ include "top.php";
 
     <!-- ADAPTIVE DESIGN STARTS HERE -->
 
-    <section class="mb-0" id="responsive-design">
+    <section class="mb-0 col-md-10" id="responsive-design">
         <h6 class="hide" >Hello</h6>
-        <article class="container">
-            <p class="details_data">HWD Was Started to Simplify business solutions to your web troubles. We focus on establishing our customers presence on the internet to share the benefits its provide to thier Business.
-            </p>
-            <p class="details_data">Whether you are just starting out or looking for your next move . You Should join our mailing list to  get our mail tips send directly to your inbox.</p>
-            <form class="sub">
-                <input type ="email" placeholder="enter your email"><button>Join Now</button>
+        <article class="container" style="margin-left: 10%">
+            <h2>Simplify Your Business Solutions Today</h2>
 
-            </form>
+            <p class="details_data">HWD was started to simplify business solutions to your web troubles.
+                We focus on establishing our customers presence on the internet to share the benefits its provide to
+                their business.
+            </p>
+            <p class="details_data">
+                Whether you are just starting out or looking for your next move. You should contact
+                us as we would love to assist you in choosing your next step.
+            </p>
+            <div id="index-header"style="height: 0px; ">
+                <a href="contact.php" class="btn"> CONTACT US </a>
+            </div>
+
+<!--            <form class="sub">-->
+<!--                <input type ="email" id="txtEmail" placeholder="enter your email"><button>Join Now</button>-->
+<!---->
+<!--            </form>-->
 
     </section>
 
