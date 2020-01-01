@@ -5,41 +5,46 @@ include "top.php";
 <div class="services">
 <h1>What We Do</h1>
 </div>
+
+    <div class="col-md-12 buildingYourPresence">
+        <article>
+            <h2>Building Your Presence</h2>
+            <p class="">
+                Our framework of online presence development services makes it easy to go digital and takes all the
+                legwork out of establishing lasting online visibility.
+            </p>
+            <p class="buildingYourPresenceText">
+                A strong online presence is essential to promoting your business across a digital landscape where customers
+                are always looking for quality products and services. With HWD, you can digitize your business features and
+                become readily-visible online as a networking force and through a highly-responsive and user-friendly
+                website.
+            </p>
+
+            <p class="buildingYourPresenceText">
+                To help you build a relevant and enduring presence online, HWD focuses on leveraging the latest search
+                engine and networking features to direct users to your cyber doorstep. Coupled with our website design and
+                development services, you’ll take advantage of a sleek website interface that engages potential customers
+                and keeps them browsing. <!--With HWD, your internet presence means being a reliable supplier of quality
+            products or services in any specific region or to a worldwide audience.-->
+
+            </p>
+        </article>
+    </div>
+
 <div class="servicesTable table-responsive">
 <table class="table content-table">
     <thead id="services-table-header">
       <tr >
-        <th><a href="#seoPackages" id="seo" class="local-nav-font">SEO Education Package</a></th>
+        <th><a href="#seoPackages" id="seo" class="local-nav-font">Search Engine Marketing</a></th>
         <th><a href="#webDesign" id="web" class="local-nav-font">Web Design & Development</a></th>
         <th><a href="#hostingPlans" id="hosting" class="local-nav-font">Hosting Plans</a></th>
         <th><a href="#maintenancePlans" id="maintain" class="local-nav-font">Maintenance</a></th>
       </tr>
     </thead>
 </table></div>
-<div class="col-md-12 buildingYourPresence">
-<article>
-        <h2>Building Your Presence</h2>
-        <p class="">
-            Our framework of online presence development services makes it easy to go digital and takes all the
-            legwork out of establishing lasting online visibility.
-        </p>
-        <p class="buildingYourPresenceText">
-            A strong online presence is essential to promoting your business across a digital landscape where customers
-            are always looking for quality products and services. With HWD, you can digitize your business features and
-            become readily-visible online as a networking force and through a highly-responsive and user-friendly
-            website.
-        </p>
 
-        <p class="buildingYourPresenceText">
-            To help you build a relevant and enduring presence online, HWD focuses on leveraging the latest search
-            engine and networking features to direct users to your cyber doorstep. Coupled with our website design and
-            development services, you’ll take advantage of a sleek website interface that engages potential customers
-            and keeps them browsing. <!--With HWD, your internet presence means being a reliable supplier of quality
-            products or services in any specific region or to a worldwide audience.-->
 
-        </p>
-</article>
-</div><hr><a name="seoPackages"></a>
+    <hr><a name="seoPackages"></a>
 <div class="educationPackage">
     <div class="row">
         <div class="col-md-6 seoVideoClass">
@@ -50,19 +55,21 @@ include "top.php";
         <div class="col-md-6">
         <div class="seoEducationPackage">
             <article>
-                <h2>SEO Education Package</h2>
+                <h2>Search Engine Marketing</h2>
                 <p class="seoEducationPackageText">
-                    With SEO consulting and development services from HWD, your business gets in the fast lane to online
-                    search engine queries and can experience higher SEO rankings among top search engine platforms such
-                    as Google, Bing, Yahoo and more. When you consider that search engine standards, ethics and
-                    performance metrics are consistently-evolving to include revolutionary AI features and analysis
-                    tools, it makes sense to embrace SEO policy changes as an opportunity to reflect quality business
-                    ethics which give you a natural edge over the competition.
+                    With SEM services from Halligan Web Development, your business gets in the fast lane to online
+                    search engine queries and can experience higher search engine rankings among your competitors on
+                    Google.
+                </p>
+                <p>
+                    When you consider a marketing plan, even if not with HWD, your main focus should be your audience
+                    and where they will see you.  Banners,signs and billboards have their place but simply do not
+                    provide the same ability to pick your audience like a search engine marketing campaign.
                 </p>
                 <p class="seoEducationPackageText">
-                    At HWD, we’re keen on the latest SEO updates and have the knowledge and experience to apply them to
-                    virtually any industry and provide results. We’re here to educate you on all the ways you can play
-                    SEO to your advantage and enjoy more traffic and more sales.
+                    At HWD, we’re keen on providing high quality campaigns that deliver the conversions expected when
+                    putting your hard earned money on the line.  We’re here to educate you on all the ways you can
+                    play SEO to your advantage and enjoy more traffic and more sales.
                 </p>
             </article>
         </div>
@@ -164,6 +171,24 @@ include "top.php";
               </tr>
             </thead>
             <tbody>
+                <tr>
+                    <td class="feature">Email & Phone Support</td>
+                    <td class="package-content"><i class="fa fa-check check"></i></td>
+                    <td class="package-content"><i class="fa fa-check check"></i></td>
+                    <td class="package-content"><i class="fa fa-check check"></i></td>
+                </tr>
+                <tr>
+                    <td class="feature">Built In Security</td>
+                    <td class="package-content"><i class="fa fa-check check"></i></td>
+                    <td class="package-content"><i class="fa fa-check check"></i></td>
+                    <td class="package-content"><i class="fa fa-check check"></i></td>
+                </tr>
+                <tr>
+                    <td class="feature">Easy To Use Interface</td>
+                    <td class="package-content"><i class="fa fa-check check"></i></td>
+                    <td class="package-content"><i class="fa fa-check check"></i></td>
+                    <td class="package-content"><i class="fa fa-check check"></i></td>
+                </tr>
               <tr>
                 <td class="feature">Hosting Files</td>
                 <td class="package-content"><i class="fa fa-check check"></i></td>
