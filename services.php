@@ -47,11 +47,16 @@ include "top.php";
     <hr><a name="seoPackages"></a>
 <div class="educationPackage">
     <div class="row">
-        <div class="col-md-6 seoVideoClass">
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+        <div class="col-md-6">
+            <div class="maintainImage">
+                <img src="images/search-engine-marketing.jpg" alt="Search Engine Marketing Image" class="img-fluid">
             </div>
         </div>
+<!--        <div class="col-md-6 seoVideoClass">-->
+<!--            <div class="embed-responsive embed-responsive-16by9">-->
+<!--                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>-->
+<!--            </div>-->
+<!--        </div>-->
         <div class="col-md-6">
         <div class="seoEducationPackage">
             <article>

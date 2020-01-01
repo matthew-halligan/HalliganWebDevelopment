@@ -135,7 +135,7 @@
                 print '</li>';
 
 
-                /*About US*/
+                /*About US
                 print '<li class="';
                 if ($path_parts['filename'] == "about") {
                     print ' activePage ';
@@ -143,6 +143,8 @@
                 print ' nav-item">';
                 print '<a class = "nav-link" href="about.php">About Us</a>';
                 print '</li>';
+                */
+
                 
                 /*Blog*/
 //                print '<li class="';

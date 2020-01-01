@@ -242,7 +242,7 @@ if (isset($_POST["btnSubmit"])){
                                maxlength="45"
                                name="txtName"
                                onfocus="this.select()"
-                               placeholder="Enter your first name"
+                               placeholder="Enter your name"
                                tabindex="100"
                                type="text"
                                value="<?php print $name; ?>"
